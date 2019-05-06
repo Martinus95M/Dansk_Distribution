@@ -1,7 +1,79 @@
+/*Colors*/
+/*Fonts*/
+@font-face {
+  font-family: "Nexa Light";
+  src: url("fonts/Nexa_Light.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Noah Regular";
+  src: url("fonts/Noah-Regular.oft") format("opentype");
+}
+
+/*Styling*/
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
+
+h1, h2, h3 {
+  font-family: "Nexa Light";
+}
+
+p {
+  font-family: "Noah Regular";
+}
+
+/*Navigation*/
+.nav-mobile {
+  position: fixed;
+  background-color: #262626;
+  width: 100%;
+  height: auto;
+  bottom: 0;
+  border-top: 2px solid #D71920;
+}
+
+.nav-mobile ul {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.nav-mobile ul li {
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  text-align: center;
+}
+
+.nav-mobile ul li a {
+  color: #F6F5F7;
+  text-decoration: none;
+  width: 100%;
+}
+
+.nav-mobile ul li a i {
+  font-size: 32px;
+  padding: .5rem;
+}
+
+.nav-mobile ul li a p {
+  font-size: 10px;
+  padding: .3rem;
+  font-family: "Nexa Light";
+}
+
+.nav-mobile ul .active {
+  border-bottom: 2px solid #D71920;
+}
+
+/*Navigation*/
 /*# sourceMappingURL=main.css.map */

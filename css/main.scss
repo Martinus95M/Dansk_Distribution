@@ -1,5 +1,70 @@
+/*Colors*/
+$background: #262626;
+$white: #F6F5F7;
+$red: #D71920;
+$gray: #707070;
+
+/*Fonts*/
+@font-face {
+    font-family: "Nexa Light";
+    src: url("fonts/Nexa_Light.otf") format("opentype");
+    }
+@font-face {
+    font-family: "Noah Regular";
+    src: url("fonts/Noah-Regular.oft") format("opentype");
+    }
+
+/*Styling*/
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
+
+h1, h2, h3 {
+    font-family: "Nexa Light";
+}
+p {
+    font-family: "Noah Regular"; 
+}
+
+/*Navigation*/
+.nav-mobile {
+    position: fixed;
+    background-color: $background;
+    width: 100%;
+    height: auto;
+    bottom: 0;
+    border-top: 2px solid $red;
+    ul {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        li {
+            list-style-type: none;
+            display: flex;
+            justify-content: space-evenly;
+            text-align: center;
+            a {
+                color: $white;
+                text-decoration: none;
+                width: 100%;
+                i {
+                    font-size: 32px;
+                    padding: .5rem;
+                }
+                p {
+                    font-size: 10px;
+                    padding: .3rem;
+                    font-family: "Nexa Light";
+                }
+            }
+        }
+        .active {
+            border-bottom: 2px solid $red;
+        }
+    }
+}
+.nav-desktop {
+
+}
+/*Navigation*/
