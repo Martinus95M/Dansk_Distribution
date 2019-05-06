@@ -80,7 +80,7 @@ header {
             }
         }
     }
-    .nav-desktop {
+    .container {
         display: none;
     }
 }
@@ -89,44 +89,55 @@ header {
 @media screen and (min-width: 768px) {
     /*Navigation*/
     header {
+        background-color: $background;
+        color: $white;
+        padding: 1em 0;
+        position: relative;
         .logo {
             display: none;
         }
         .nav-mobile {
             display: none;
         }
-        .nav-desktop {
-            display: grid;
-            grid-template-columns: 1fr 1fr 3fr;
-            position: fixed;
-            background-color: $background;
-            width: 100%;
-            height: auto;
-            ul {
-                display: grid;
-                grid-template-columns: 1fr 1fr 1fr 1fr;
-                li {
-                    list-style-type: none;
-                    display: flex;
-                    justify-content: center;
-                    a {
-                        color: $white;
-                        text-decoration: none;
-                        p {
-                            position: absolute;
-                            font-size: 25px;
-                            font-family: "Nexa Light";
-                            top: 50%;
-                            transform: translate(-50%, -50%)
+        .container {
+            display: block;
+            width: 95%;
+            max-width: 1400px;
+            margin: 0 auto;
+            img {
+                width: 20%;
+                height: auto;
+                padding: 0;
+            }
+            .nav-desktop {
+                position: relative;
+                top: 100%;
+                right: 0%;
+                height: auto;
+                background: transparent;
+                padding: .5rem 0;
+                float: right;
+                ul {
+                    margin: 0;
+                    padding: 0;
+                    list-style: none;
+                    float: right;
+                    li {
+                        display: inline-block;
+                        border: none;
+                        a {
+                            color: #EBEBD3;
+                            display: block;
+                            padding: 0;
+                            text-transform: uppercase;
+                            text-decoration: none;
+                            margin-left: 3em;
                         }
                         .active {
-                            border-bottom: 2px solid $red;
+                            border-bottom: 1px solid $red;
                         }
                     }
                 }
-            }
-            .logo {
-                display: block;
             }
         }
     }

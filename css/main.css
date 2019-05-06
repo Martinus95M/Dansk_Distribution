@@ -89,61 +89,65 @@ header .nav-mobile ul .active {
   border-bottom: 2px solid #D71920;
 }
 
-header .nav-desktop {
+header .container {
   display: none;
 }
 
 /*Navigation - End*/
 @media screen and (min-width: 768px) {
   /*Navigation*/
+  header {
+    background-color: #262626;
+    color: #F6F5F7;
+    padding: 1em 0;
+    position: relative;
+  }
   header .logo {
     display: none;
   }
   header .nav-mobile {
     display: none;
   }
-  header .nav-desktop {
-    display: -ms-grid;
-    display: grid;
-    -ms-grid-columns: 1fr 1fr 3fr;
-        grid-template-columns: 1fr 1fr 3fr;
-    position: fixed;
-    background-color: #262626;
-    width: 100%;
-    height: auto;
-  }
-  header .nav-desktop ul {
-    display: -ms-grid;
-    display: grid;
-    -ms-grid-columns: 1fr 1fr 1fr 1fr;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-  }
-  header .nav-desktop ul li {
-    list-style-type: none;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-  }
-  header .nav-desktop ul li a {
-    color: #F6F5F7;
-    text-decoration: none;
-  }
-  header .nav-desktop ul li a p {
-    position: absolute;
-    font-size: 25px;
-    font-family: "Nexa Light";
-    top: 50%;
-    -webkit-transform: translate(-50%, -50%);
-            transform: translate(-50%, -50%);
-  }
-  header .nav-desktop ul li a .active {
-    border-bottom: 2px solid #D71920;
-  }
-  header .nav-desktop .logo {
+  header .container {
     display: block;
+    width: 95%;
+    max-width: 1400px;
+    margin: 0 auto;
+  }
+  header .container img {
+    width: 20%;
+    height: auto;
+    padding: 0;
+  }
+  header .container .nav-desktop {
+    position: relative;
+    top: 100%;
+    right: 0%;
+    height: auto;
+    background: transparent;
+    padding: .5rem 0;
+    float: right;
+  }
+  header .container .nav-desktop ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    float: right;
+  }
+  header .container .nav-desktop ul li {
+    display: inline-block;
+    border: none;
+  }
+  header .container .nav-desktop ul li a {
+    color: #EBEBD3;
+    display: block;
+    padding: 0;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-left: 3em;
+  }
+  header .container .nav-desktop ul li .active {
+    border-bottom: 1px solid #D71920;
   }
   /*Navigation - End*/
 }
