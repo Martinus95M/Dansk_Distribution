@@ -216,5 +216,83 @@ header .container {
     }
   }
   /*Navigation - End*/
+  /*Transport & Lagerhotel*/
+  .tl-titel {
+    width: 100%;
+  }
+  .tl-titel h1 {
+    text-align: center;
+  }
+  .transport {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 2fr 1fr 1fr 1fr 2fr;
+        grid-template-columns: 2fr 1fr 1fr 1fr 2fr;
+    -ms-grid-row-align: start;
+        align-self: start;
+  }
+  .transport h2 {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 3;
+    grid-column: 1/4;
+    margin-left: 8%;
+  }
+  .transport p {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 3;
+    grid-column: 1/4;
+    margin-left: 8%;
+  }
+  .transport .tl_liste_1 {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 3;
+    grid-column: 1/4;
+    margin-left: 8%;
+  }
+  .transport .tl_liste_2 {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 3;
+    grid-column: 1/4;
+    margin-left: 8%;
+  }
+  .transport .tl_liste_3 {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 3;
+    grid-column: 1/4;
+    margin-left: 8%;
+  }
+  .lagerhotel {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 2fr 1fr 1fr 1fr 2fr;
+        grid-template-columns: 2fr 1fr 1fr 1fr 2fr;
+    -ms-grid-row-align: end;
+        align-self: end;
+  }
+  .lagerhotel h2 {
+    -ms-grid-column: 3;
+    -ms-grid-column-span: 2;
+    grid-column: 3/5;
+    margin-right: 8%;
+  }
+  .lagerhotel p {
+    -ms-grid-column: 3;
+    -ms-grid-column-span: 2;
+    grid-column: 3/5;
+    margin-right: 8%;
+  }
+  .lagerhotel .tl_liste_4 {
+    -ms-grid-column: 3;
+    -ms-grid-column-span: 2;
+    grid-column: 3/5;
+    margin-right: 8%;
+  }
+  .lagerhotel .tl_liste_5 {
+    -ms-grid-column: 3;
+    -ms-grid-column-span: 2;
+    grid-column: 3/5;
+    margin-right: 8%;
+  }
+  /*Transport & Lagerhotel - End*/
 }
 /*# sourceMappingURL=main.css.map */

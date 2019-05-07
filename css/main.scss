@@ -207,4 +207,73 @@ header {
     }
   }
 /*Navigation - End*/
+
+/*Transport & Lagerhotel*/
+
+  .tl-titel {
+      width: 100%;
+
+      h1 {
+          text-align: center;
+      }
+  }
+
+  .transport {
+      display: grid;
+      grid-template-columns: 2fr 1fr 1fr 1fr 2fr;
+      align-self: start;
+
+      h2 {
+         grid-column: 1/4;
+         margin-left: 8%;
+      }
+
+      p {
+          grid-column: 1/4;
+          margin-left: 8%;
+      }
+
+      .tl_liste_1 {
+          grid-column: 1/4;
+          margin-left: 8%;
+      }
+
+      .tl_liste_2 {
+        grid-column: 1/4;
+        margin-left: 8%;
+    }
+
+      .tl_liste_3 {
+        grid-column: 1/4;
+        margin-left: 8%;
+    }
+  }
+
+  .lagerhotel {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr 2fr;
+    align-self: end;
+
+    h2 {
+       grid-column: 3/5;
+       margin-right: 8%;
+    }
+
+    p {
+        grid-column: 3/5;
+        margin-right: 8%;
+    }
+
+    .tl_liste_4 {
+        grid-column: 3/5;
+        margin-right: 8%;
+    }
+
+    .tl_liste_5 {
+        grid-column: 3/5;
+        margin-right: 8%;
+  }
+}
+
+/*Transport & Lagerhotel - End*/
 }
