@@ -228,24 +228,23 @@ header {
          margin-left: 10%;
       }
 
+      h3 {
+          margin-top: 25px;
+      }
+
       p {
           grid-column: 1/4;
           margin-left: 10%;
       }
 
       .tl_liste_1 {
-          grid-column: 1/4;
-          margin-left: 10%;
+          grid-column: 1/2;
+          justify-self: end;
       }
 
       .tl_liste_2 {
-        grid-column: 1/4;
-        margin-left: 10%;
-    }
-
-      .tl_liste_3 {
-        grid-column: 1/4;
-        margin-left: 10%;
+        grid-column: 2/4;
+        justify-self: center;
     }
   }
 
@@ -259,14 +258,19 @@ header {
        justify-self: end;
     }
 
+    h3 {
+        margin-top: 25px;
+    }
+
     p {
         grid-column: 3/6;
         margin-right: 4%;
+        margin-top: 15px;
     }
 
     .tl_liste_4 {
         grid-column: 3/5;
-        margin-left: 4%;
+        justify-self: center;
     }
 
     .tl_liste_5 {

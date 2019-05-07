@@ -237,6 +237,9 @@ header .container {
     grid-column: 1/4;
     margin-left: 10%;
   }
+  .transport h3 {
+    margin-top: 25px;
+  }
   .transport p {
     -ms-grid-column: 1;
     -ms-grid-column-span: 3;
@@ -245,21 +248,17 @@ header .container {
   }
   .transport .tl_liste_1 {
     -ms-grid-column: 1;
-    -ms-grid-column-span: 3;
-    grid-column: 1/4;
-    margin-left: 10%;
+    -ms-grid-column-span: 1;
+    grid-column: 1/2;
+    -ms-grid-column-align: end;
+        justify-self: end;
   }
   .transport .tl_liste_2 {
-    -ms-grid-column: 1;
-    -ms-grid-column-span: 3;
-    grid-column: 1/4;
-    margin-left: 10%;
-  }
-  .transport .tl_liste_3 {
-    -ms-grid-column: 1;
-    -ms-grid-column-span: 3;
-    grid-column: 1/4;
-    margin-left: 10%;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 2;
+    grid-column: 2/4;
+    -ms-grid-column-align: center;
+        justify-self: center;
   }
   .lagerhotel {
     display: -ms-grid;
@@ -275,17 +274,22 @@ header .container {
     -ms-grid-column-align: end;
         justify-self: end;
   }
+  .lagerhotel h3 {
+    margin-top: 25px;
+  }
   .lagerhotel p {
     -ms-grid-column: 3;
     -ms-grid-column-span: 3;
     grid-column: 3/6;
     margin-right: 4%;
+    margin-top: 15px;
   }
   .lagerhotel .tl_liste_4 {
     -ms-grid-column: 3;
     -ms-grid-column-span: 2;
     grid-column: 3/5;
-    margin-left: 4%;
+    -ms-grid-column-align: center;
+        justify-self: center;
   }
   .lagerhotel .tl_liste_5 {
     -ms-grid-column: 5;
