@@ -219,6 +219,7 @@ header .container {
   /*Transport & Lagerhotel*/
   .tl-titel {
     width: 100%;
+    margin-top: 100px;
   }
   .tl-titel h1 {
     text-align: center;
@@ -228,17 +229,17 @@ header .container {
     display: grid;
     -ms-grid-columns: 2fr 1fr 1fr 1fr 2fr;
         grid-template-columns: 2fr 1fr 1fr 1fr 2fr;
+    grid-auto-rows: minmax(30px, auto);
+    grid-row-gap: 25px;
     -ms-grid-row-align: start;
         align-self: start;
+    margin-top: 75px;
   }
   .transport h2 {
     -ms-grid-column: 1;
     -ms-grid-column-span: 3;
     grid-column: 1/4;
     margin-left: 10%;
-  }
-  .transport h3 {
-    margin-top: 25px;
   }
   .transport p {
     -ms-grid-column: 1;
