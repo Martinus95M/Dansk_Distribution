@@ -47,7 +47,7 @@ header .nav-mobile {
   width: 100%;
   height: auto;
   bottom: 0;
-  border-top: 2px solid #D71920;
+  border-top: 2px solid #d71920;
 }
 
 header .nav-mobile ul {
@@ -86,7 +86,7 @@ header .nav-mobile ul li a p {
 }
 
 header .nav-mobile ul .active {
-  border-bottom: 2px solid #D71920;
+  border-bottom: 2px solid #d71920;
 }
 
 header .container {
@@ -139,15 +139,75 @@ header .container {
     border: none;
   }
   header .container .nav-desktop ul li a {
-    color: #EBEBD3;
+    font-family: "Nexa Light";
+    color: #F6F5F7;
     display: block;
-    padding: 0;
-    text-transform: uppercase;
+    padding: .5rem;
     text-decoration: none;
     margin-left: 3em;
+    -webkit-transition: all .5s;
+    transition: all .5s;
+    border-radius: 50px;
   }
-  header .container .nav-desktop ul li .active {
-    border-bottom: 1px solid #D71920;
+  header .container nav ul li a,
+  header .container nav ul li a:after,
+  header .container nav ul li a:before {
+    -webkit-transition: all .5s;
+    transition: all .5s;
+  }
+  header .container nav ul li a:hover {
+    color: #F6F5F7;
+  }
+  header .container nav.circle ul li a {
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+  }
+  header .container nav.circle ul li a:after {
+    display: block;
+    position: absolute;
+    margin: 0;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    content: '.';
+    color: transparent;
+    width: 1px;
+    height: 1px;
+    border-radius: 50%;
+    background: transparent;
+  }
+  header .container nav.circle ul li a:hover:after {
+    animation: circle .3s ease-in forwards;
+    -webkit-animation: circle .3s ease-in forwards;
+  }
+  /* Keyframes */
+  @-webkit-keyframes circle {
+    0% {
+      width: 1px;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      margin: auto;
+      height: 1px;
+      z-index: -1;
+      background: #d71920;
+      border-radius: 100%;
+    }
+    100% {
+      background: #e5343d;
+      height: 100%;
+      width: 100%;
+      z-index: -1;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      margin: auto;
+      border-radius: 0;
+    }
   }
   /*Navigation - End*/
 }
