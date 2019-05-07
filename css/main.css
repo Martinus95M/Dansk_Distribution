@@ -216,5 +216,88 @@ header .container {
     }
   }
   /*Navigation - End*/
+  /*Transport & Lagerhotel*/
+  .tl-titel {
+    width: 100%;
+    margin-top: 100px;
+  }
+  .tl-titel h1 {
+    text-align: center;
+  }
+  .transport {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 2fr 1fr 1fr 1fr 2fr;
+        grid-template-columns: 2fr 1fr 1fr 1fr 2fr;
+    grid-auto-rows: minmax(30px, auto);
+    grid-row-gap: 25px;
+    -ms-grid-row-align: start;
+        align-self: start;
+    margin-top: 75px;
+  }
+  .transport h2 {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 3;
+    grid-column: 1/4;
+    margin-left: 10%;
+  }
+  .transport p {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 3;
+    grid-column: 1/4;
+    margin-left: 10%;
+  }
+  .transport .tl_liste_1 {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+    grid-column: 1/2;
+    -ms-grid-column-align: end;
+        justify-self: end;
+  }
+  .transport .tl_liste_2 {
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 2;
+    grid-column: 2/4;
+    -ms-grid-column-align: center;
+        justify-self: center;
+  }
+  .lagerhotel {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 2fr 1fr 1fr 1fr 2fr;
+        grid-template-columns: 2fr 1fr 1fr 1fr 2fr;
+  }
+  .lagerhotel h2 {
+    -ms-grid-column: 5;
+    -ms-grid-column-span: 1;
+    grid-column: 5/6;
+    margin-right: 10%;
+    -ms-grid-column-align: end;
+        justify-self: end;
+  }
+  .lagerhotel h3 {
+    margin-top: 25px;
+  }
+  .lagerhotel p {
+    -ms-grid-column: 3;
+    -ms-grid-column-span: 3;
+    grid-column: 3/6;
+    margin-right: 4%;
+    margin-top: 15px;
+  }
+  .lagerhotel .tl_liste_4 {
+    -ms-grid-column: 3;
+    -ms-grid-column-span: 2;
+    grid-column: 3/5;
+    -ms-grid-column-align: center;
+        justify-self: center;
+  }
+  .lagerhotel .tl_liste_5 {
+    -ms-grid-column: 5;
+    -ms-grid-column-span: 1;
+    grid-column: 5/6;
+    margin-right: 4%;
+  }
+  /*Transport & Lagerhotel - End*/
 }
 /*# sourceMappingURL=main.css.map */
