@@ -142,12 +142,11 @@ header .container {
     font-family: "Nexa Light";
     color: #F6F5F7;
     display: block;
-    padding: .5rem;
+    padding: .7rem;
     text-decoration: none;
     margin-left: 3em;
     -webkit-transition: all .5s;
     transition: all .5s;
-    border-radius: 50px;
   }
   header .container nav ul li a,
   header .container nav ul li a:after,
@@ -157,6 +156,7 @@ header .container {
   }
   header .container nav ul li a:hover {
     color: #F6F5F7;
+    border: none;
   }
   header .container nav.circle ul li a {
     position: relative;
@@ -173,14 +173,20 @@ header .container {
     right: 0;
     content: '.';
     color: transparent;
-    width: 1px;
-    height: 1px;
-    border-radius: 50%;
+    width: 100%;
+    height: auto;
     background: transparent;
+  }
+  header .container nav.circle ul li .active:after {
+    border-bottom: 1px solid #d71920;
   }
   header .container nav.circle ul li a:hover:after {
     animation: circle .3s ease-in forwards;
     -webkit-animation: circle .3s ease-in forwards;
+  }
+  header .container nav.circle ul li .booking {
+    background: #d71920;
+    border-radius: 50px;
   }
   /* Keyframes */
   @-webkit-keyframes circle {
@@ -194,7 +200,7 @@ header .container {
       height: 1px;
       z-index: -1;
       background: #d71920;
-      border-radius: 100%;
+      border-radius: 50px;
     }
     100% {
       background: #e5343d;
@@ -206,7 +212,7 @@ header .container {
       left: 0;
       right: 0;
       margin: auto;
-      border-radius: 0;
+      border-radius: 50px;
     }
   }
   /*Navigation - End*/

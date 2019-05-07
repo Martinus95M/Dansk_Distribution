@@ -130,11 +130,10 @@ header {
                             font-family: "Nexa Light";
                             color: $white;
                             display: block;
-                            padding: .5rem;
+                            padding: .7rem;
                             text-decoration: none;
                             margin-left: 3em;
                             transition: all .5s;
-                            border-radius: 50px;
                         }
                     }
                 }
@@ -142,10 +141,11 @@ header {
             nav ul li a,
             nav ul li a:after,
             nav ul li a:before {
-            transition: all .5s;
+                transition: all .5s;
             }
             nav ul li a:hover {
-            color: $white;
+                color: $white;
+                border: none;
             }
             nav.circle ul li a {
                 position: relative;
@@ -153,23 +153,29 @@ header {
                 z-index: 1;
               }
               nav.circle ul li a:after {
-                display: block;
-                position: absolute;
-                margin: 0;
-                top: 0;
-                bottom: 0;
-                left: 0;
-                right: 0;
-                content: '.';
-                color: transparent;
-                width: 1px;
-                height: 1px;
-                border-radius: 50%;
-                background: transparent;
+                    display: block;
+                    position: absolute;
+                    margin: 0;
+                    top: 0;
+                    bottom: 0;
+                    left: 0;
+                    right: 0;
+                    content: '.';
+                    color: transparent;
+                    width: 100%;
+                    height: auto;
+                    background: transparent;
+              }
+              nav.circle ul li .active:after {
+                    border-bottom: 1px solid $red;
               }
               nav.circle ul li a:hover:after {
-                animation: circle .3s ease-in forwards;
-                -webkit-animation: circle .3s ease-in forwards;
+                    animation: circle .3s ease-in forwards;
+                    -webkit-animation: circle .3s ease-in forwards;
+              }
+              nav.circle ul li .booking {
+                background: $red;
+                border-radius: 50px;
               }
         }
     }
@@ -185,7 +191,7 @@ header {
         height: 1px;
         z-index: -1;
         background: $red;
-        border-radius: 100%;
+        border-radius: 50px;
     }
     100% {
         background: $hover;
@@ -197,7 +203,7 @@ header {
         left: 0;
         right: 0;
         margin: auto;
-        border-radius: 0;
+        border-radius: 50px;
     }
   }
 /*Navigation - End*/
