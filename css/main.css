@@ -372,5 +372,56 @@ header .container {
     margin-top: 3px;
   }
   /*Transport & Lagerhotel - End*/
+  /*Kontakt*/
+  .kontakt {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 2fr 2fr 2fr 2fr 1fr;
+        grid-template-columns: 1fr 2fr 2fr 2fr 2fr 1fr;
+    grid-auto-rows: minmax(30px, auto);
+    grid-row-gap: 25px;
+    margin-top: 75px;
+  }
+  .kontakt h1 {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 6;
+    grid-column: 1/7;
+    text-align: center;
+  }
+  .kontakt h2 {
+    margin-top: 50px;
+    margin-bottom: 12px;
+  }
+  .kontakt h3 {
+    margin-top: 18px;
+  }
+  .kontakt ul {
+    margin-top: 4px;
+  }
+  .kontakt li {
+    margin-top: 2px;
+    list-style-type: none;
+  }
+  .kontakt .hovedkontor {
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+    grid-column: 2/3;
+  }
+  .kontakt .kundeservice {
+    -ms-grid-column: 3;
+    -ms-grid-column-span: 1;
+    grid-column: 3/4;
+  }
+  .kontakt .kontaktpersoner {
+    -ms-grid-column: 4;
+    -ms-grid-column-span: 1;
+    grid-column: 4/5;
+  }
+  .kontakt .salg {
+    -ms-grid-column: 5;
+    -ms-grid-column-span: 1;
+    grid-column: 5/6;
+  }
+  /*Kontakt - End*/
 }
 /*# sourceMappingURL=main.css.map */
