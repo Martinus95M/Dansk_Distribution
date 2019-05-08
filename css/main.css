@@ -283,11 +283,17 @@ header .container {
     grid-column: 1/4;
     margin-left: 10%;
   }
+  .transport h3 {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
   .transport p {
     -ms-grid-column: 1;
     -ms-grid-column-span: 3;
     grid-column: 1/4;
     margin-left: 10%;
+    text-align: center;
   }
   .transport .tl_liste_1 {
     -ms-grid-column: 1;
@@ -296,6 +302,10 @@ header .container {
     -ms-grid-column-align: end;
         justify-self: end;
   }
+  .transport .tl_liste_1 p {
+    text-align: center;
+    margin-top: 3px;
+  }
   .transport .tl_liste_2 {
     -ms-grid-column: 2;
     -ms-grid-column-span: 2;
@@ -303,11 +313,19 @@ header .container {
     -ms-grid-column-align: center;
         justify-self: center;
   }
+  .transport .tl_liste_2 p {
+    text-align: center;
+    margin-top: 7px;
+  }
   .lagerhotel {
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: 2fr 1fr 1fr 1fr 2fr;
         grid-template-columns: 2fr 1fr 1fr 1fr 2fr;
+    grid-auto-rows: minmax(30px, auto);
+    grid-row-gap: 25px;
+    -ms-grid-row-align: start;
+        align-self: start;
   }
   .lagerhotel h2 {
     -ms-grid-column: 5;
@@ -318,14 +336,16 @@ header .container {
         justify-self: end;
   }
   .lagerhotel h3 {
-    margin-top: 25px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    text-align: center;
   }
   .lagerhotel p {
     -ms-grid-column: 3;
     -ms-grid-column-span: 3;
     grid-column: 3/6;
-    margin-right: 4%;
-    margin-top: 15px;
+    -ms-grid-column-align: center;
+        justify-self: center;
   }
   .lagerhotel .tl_liste_4 {
     -ms-grid-column: 3;
@@ -333,12 +353,24 @@ header .container {
     grid-column: 3/5;
     -ms-grid-column-align: center;
         justify-self: center;
+    margin-left: 30%;
+  }
+  .lagerhotel .tl_liste_4 p {
+    text-align: center;
+    margin-top: 4px;
   }
   .lagerhotel .tl_liste_5 {
     -ms-grid-column: 5;
     -ms-grid-column-span: 1;
     grid-column: 5/6;
     margin-right: 4%;
+    -ms-grid-column-align: start;
+        justify-self: start;
+    margin-left: 20%;
+  }
+  .lagerhotel .tl_liste_5 p {
+    text-align: center;
+    margin-top: 3px;
   }
   /*Transport & Lagerhotel - End*/
 }
