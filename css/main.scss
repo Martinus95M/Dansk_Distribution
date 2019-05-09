@@ -100,6 +100,58 @@ header {
 }
 /*Navigation - End*/
 
+.kontakt {
+    display: block;
+
+    .kontakt-titel {
+        display: none;
+        justify-self: center;
+    }
+
+    h2 {
+        margin-bottom: 1em;
+        margin-left: 0.8em;
+    }
+
+    h3 {
+        margin-top: 1.2em;
+        margin-bottom: 0.5em;
+        margin-left: 0.8em;
+    }
+
+    ul {
+        margin-left: 1.2em;
+    }
+
+    li {
+        margin-top: 2px;
+        list-style-type: none;
+    }
+
+    .hovedkontor {
+        margin-bottom: 5em;
+
+        aside {
+            margin-top: 1.5em;
+        }
+    }
+
+    .kundeservice {
+        margin-bottom: 5em;
+    }
+
+    .kontaktpersoner {
+        margin-bottom: 5em;
+    }
+
+    .salg {
+        margin-bottom: 7em;
+    }
+
+}
+
+/*Kontakt - End*/
+
 @media screen and (min-width: 768px) {
     /*Navigation*/
     header {
@@ -365,8 +417,13 @@ header {
     grid-row-gap: 25px;
     margin-top: 75px;
 
-    h1 {
+    .kontakt-titel {
+        display: grid;
         grid-column: 1/7;
+        justify-self: center;
+    }
+
+    h1 {
         text-align: center;
     }
 

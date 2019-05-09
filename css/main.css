@@ -107,6 +107,57 @@ header .container {
 }
 
 /*Navigation - End*/
+.kontakt {
+  display: block;
+}
+
+.kontakt .kontakt-titel {
+  display: none;
+  -ms-grid-column-align: center;
+      justify-self: center;
+}
+
+.kontakt h2 {
+  margin-bottom: 1em;
+  margin-left: 0.8em;
+}
+
+.kontakt h3 {
+  margin-top: 1.2em;
+  margin-bottom: 0.5em;
+  margin-left: 0.8em;
+}
+
+.kontakt ul {
+  margin-left: 1.2em;
+}
+
+.kontakt li {
+  margin-top: 2px;
+  list-style-type: none;
+}
+
+.kontakt .hovedkontor {
+  margin-bottom: 5em;
+}
+
+.kontakt .hovedkontor aside {
+  margin-top: 1.5em;
+}
+
+.kontakt .kundeservice {
+  margin-bottom: 5em;
+}
+
+.kontakt .kontaktpersoner {
+  margin-bottom: 5em;
+}
+
+.kontakt .salg {
+  margin-bottom: 7em;
+}
+
+/*Kontakt - End*/
 @media screen and (min-width: 768px) {
   /*Navigation*/
   header {
@@ -382,10 +433,16 @@ header .container {
     grid-row-gap: 25px;
     margin-top: 75px;
   }
-  .kontakt h1 {
+  .kontakt .kontakt-titel {
+    display: -ms-grid;
+    display: grid;
     -ms-grid-column: 1;
     -ms-grid-column-span: 6;
     grid-column: 1/7;
+    -ms-grid-column-align: center;
+        justify-self: center;
+  }
+  .kontakt h1 {
     text-align: center;
   }
   .kontakt h2 {
