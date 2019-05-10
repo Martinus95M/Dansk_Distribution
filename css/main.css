@@ -613,22 +613,26 @@ footer #klovnesponsor img {
     -ms-grid-columns: 1fr 4fr 4fr 4fr 1fr 4fr 1fr;
         grid-template-columns: 1fr 4fr 4fr 4fr 1fr 4fr 1fr;
     grid-column-gap: 1.5em;
-    -ms-grid-rows: 1fr 2fr 2fr 1fr;
-        grid-template-rows: 1fr 2fr 2fr 1fr;
+    -ms-grid-rows: 2fr 5fr 5fr 1fr;
+        grid-template-rows: 2fr 5fr 5fr 1fr;
     grid-auto-rows: minmax(30px, auto);
     /*Overvej 1.3em i font størrelse*/
   }
   footer h1 {
-    margin-bottom: 0.5em;
-    font-size: 1em;
+    margin-bottom: 1.5em;
+    font-size: 1.4em;
+    text-align: left;
   }
   footer h2 {
     margin-top: 1em;
-    font-size: 1em;
+    font-size: 1.2em;
+    text-align: left;
   }
   footer li {
     list-style-type: none;
     font-size: 1em;
+    text-align: left;
+    margin: 0;
   }
   footer #dadi_as {
     -ms-grid-column: 2;
@@ -637,6 +641,17 @@ footer #klovnesponsor img {
     -ms-grid-row: 2;
     -ms-grid-row-span: 1;
     grid-row: 2/3;
+    margin: 0;
+    width: 100%;
+  }
+  footer #dadi_as h1 {
+    text-align: left;
+  }
+  footer #dadi_as h2 {
+    text-align: left;
+  }
+  footer #dadi_as li {
+    text-align: left;
   }
   footer #dadi {
     -ms-grid-column: 2;
@@ -645,6 +660,17 @@ footer #klovnesponsor img {
     -ms-grid-row: 3;
     -ms-grid-row-span: 1;
     grid-row: 3/4;
+    margin: 0;
+    width: 100%;
+  }
+  footer #dadi h1 {
+    text-align: left;
+  }
+  footer #dadi h2 {
+    text-align: left;
+  }
+  footer #dadi li {
+    text-align: left;
   }
   footer #mit-dadi {
     -ms-grid-column: 3;
@@ -653,6 +679,17 @@ footer #klovnesponsor img {
     -ms-grid-row: 2;
     -ms-grid-row-span: 2;
     grid-row: 2/4;
+    margin: 0;
+    width: 100%;
+  }
+  footer #mit-dadi h1 {
+    text-align: left;
+  }
+  footer #mit-dadi h2 {
+    text-align: left;
+  }
+  footer #mit-dadi li {
+    text-align: left;
   }
   footer #footer-kundeservice {
     -ms-grid-column: 4;
@@ -661,6 +698,17 @@ footer #klovnesponsor img {
     -ms-grid-row: 2;
     -ms-grid-row-span: 2;
     grid-row: 2/4;
+    margin: 0;
+    width: 100%;
+  }
+  footer #footer-kundeservice h1 {
+    text-align: left;
+  }
+  footer #footer-kundeservice h2 {
+    text-align: left;
+  }
+  footer #footer-kundeservice li {
+    text-align: left;
   }
   footer #klovnesponsor {
     -ms-grid-column: 6;
