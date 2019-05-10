@@ -163,14 +163,19 @@ header .container {
 /*Footer*/
 footer {
   background-color: black;
-  display: block;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 4fr 4fr 1fr;
+      grid-template-columns: 1fr 4fr 4fr 1fr;
+  -ms-grid-rows: 4fr;
+      grid-template-rows: 4fr;
   margin-bottom: 5em;
   width: 100%;
 }
 
 footer h1 {
   margin-bottom: 2em;
-  font-size: 1em;
+  font-size: 0.94em;
 }
 
 footer h2 {
@@ -190,10 +195,14 @@ footer li {
 }
 
 footer #dadi_as {
-  width: 45.5%;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-column: 2/3;
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  grid-row: 1/2;
   float: left;
   margin-top: 1.8em;
-  margin-left: 1em;
 }
 
 footer #dadi_as h1 {
@@ -209,10 +218,14 @@ footer #dadi_as li {
 }
 
 footer #dadi {
-  width: 45.5%;
+  -ms-grid-column: 3;
+  -ms-grid-column-span: 1;
+  grid-column: 3/4;
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  grid-row: 1/2;
   float: right;
   margin-top: 1.8em;
-  margin-right: 1em;
 }
 
 footer #dadi h1 {
@@ -228,10 +241,14 @@ footer #dadi li {
 }
 
 footer #mit-dadi {
-  width: 45.5%;
+  -ms-grid-column: 3;
+  -ms-grid-column-span: 1;
+  grid-column: 3/4;
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 1;
+  grid-row: 2/3;
   margin-top: 3em;
   float: right;
-  margin-right: 1em;
 }
 
 footer #mit-dadi h1 {
@@ -247,10 +264,14 @@ footer #mit-dadi li {
 }
 
 footer #footer-kundeservice {
-  width: 45.5%;
-  margin-top: 5.7em;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-column: 2/3;
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 1;
+  grid-row: 2/3;
+  margin-top: 3em;
   float: left;
-  margin-left: 1em;
 }
 
 footer #footer-kundeservice h1 {
@@ -266,19 +287,15 @@ footer #footer-kundeservice li {
 }
 
 footer #klovnesponsor {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: 1fr;
-      grid-template-columns: 1fr;
-  width: 100%;
-  margin-bottom: 2em;
-}
-
-footer #klovnesponsor img {
-  display: -ms-grid;
-  display: grid;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 4;
+  grid-column: 1/5;
+  -ms-grid-row: 3;
+  -ms-grid-row-span: 1;
+  grid-row: 3/4;
   -ms-grid-column-align: center;
       justify-self: center;
+  margin-bottom: 2em;
 }
 
 /*Footer - End*/
