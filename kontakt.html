@@ -122,9 +122,24 @@
 
         </section>
 
-        <section class="kontakt-kort">
-            
+        <section id="kontakt-kort" style="height: 200px">
+
         </section>
+        <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCwcAP6Bjjt1mxL8QII4EuHSKiPsRXKVgI&callback=initMap">
+        </script>
+
+
+        <script>
+            function initMap() {
+              var uluru = {lat: 55.72974079999999, lng: 12.35294680000004};
+              var map = new google.maps.Map(
+                  document.getElementById('kontakt-kort'), {zoom: 14, center: uluru});
+              var marker = new google.maps.Marker({position: uluru, map: map});
+            }
+            </script>
+        
+
 
     </main>
 
