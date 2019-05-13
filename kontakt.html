@@ -122,7 +122,7 @@
 
         </section>
 
-        <section id="kontakt-kort" style="height: 200px">
+        <section id="kontakt-kort" style="height: 400px">
 
         </section>
         <script async defer
@@ -132,10 +132,10 @@
 
         <script>
             function initMap() {
-              var uluru = {lat: 55.72974079999999, lng: 12.35294680000004};
+              var DD_koordinator = {lat: 55.54459, lng: 12.205017};
               var map = new google.maps.Map(
-                  document.getElementById('kontakt-kort'), {zoom: 14, center: uluru});
-              var marker = new google.maps.Marker({position: uluru, map: map});
+                  document.getElementById('kontakt-kort'), {zoom: 14, center: DD_koordinator});
+              var marker = new google.maps.Marker({position: DD_koordinator, map: map});
             }
             </script>
         
@@ -143,7 +143,7 @@
 
     </main>
 
-    <!--Footer-->
+    <!--Footer (kontrollér at det er i Karlslunde og ikke Karlstrup)-->
     <footer>
         <section id="dadi_as" class="grid-footer">
             <h1>Dansk Distribution A/S</h1>
