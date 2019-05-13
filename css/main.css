@@ -633,6 +633,7 @@ footer #klovnesponsor {
     -ms-grid-rows: 2fr 5fr 5fr 1fr;
         grid-template-rows: 2fr 5fr 5fr 1fr;
     grid-auto-rows: minmax(30px, auto);
+    margin-bottom: 0;
     /*Overvej 1.3em i font størrelse*/
   }
   footer h1 {
