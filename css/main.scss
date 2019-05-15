@@ -629,6 +629,11 @@ footer {
         margin: 0;
     }
 
+    a {
+        text-decoration: none;
+        color: white;
+    }
+
     #dadi_as {
         grid-column: 2/3;
         grid-row: 2/3;
