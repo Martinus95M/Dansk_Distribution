@@ -132,6 +132,7 @@ header {
 
     .hovedkontor {
         margin-bottom: 5em;
+        justify-self: start;
 
         aside {
             margin-top: 1.5em;
@@ -140,14 +141,17 @@ header {
 
     .kundeservice {
         margin-bottom: 5em;
+        justify-self: start;
     }
 
     .kontaktpersoner {
         margin-bottom: 5em;
+        justify-self: start;
     }
 
     .salg {
         margin-bottom: 7em;
+        justify-self: start;
     }
 
 }
@@ -544,40 +548,49 @@ footer {
 
     h1 {
         text-align: center;
+        margin-left: 0;
     }
 
     h2 {
         margin-top: 50px;
         margin-bottom: 12px;
+        margin-left: 0;
     }
 
     h3 {
         margin-top: 18px;
+        margin-left: 0;
     }
 
     ul {
         margin-top: 4px;
+        margin-left: 0;
     }
 
     li {
         margin-top: 2px;
         list-style-type: none;
+        margin-left: 0;
     }
 
     .hovedkontor {
         grid-column: 2/3;
+        justify-self: center;
     }
 
     .kundeservice {
         grid-column: 3/4;
+        justify-self: center;
     }
 
     .kontaktpersoner {
         grid-column: 4/5;
+        justify-self: center;
     }
 
     .salg {
         grid-column: 5/6;
+        justify-self: center;
     }
 }
 

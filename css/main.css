@@ -141,6 +141,8 @@ header .container {
 
 .kontakt .hovedkontor {
   margin-bottom: 5em;
+  -ms-grid-column-align: start;
+      justify-self: start;
 }
 
 .kontakt .hovedkontor aside {
@@ -149,14 +151,20 @@ header .container {
 
 .kontakt .kundeservice {
   margin-bottom: 5em;
+  -ms-grid-column-align: start;
+      justify-self: start;
 }
 
 .kontakt .kontaktpersoner {
   margin-bottom: 5em;
+  -ms-grid-column-align: start;
+      justify-self: start;
 }
 
 .kontakt .salg {
   margin-bottom: 7em;
+  -ms-grid-column-align: start;
+      justify-self: start;
 }
 
 /*Kontakt - End*/
@@ -585,40 +593,53 @@ footer #klovnesponsor {
   }
   .kontakt h1 {
     text-align: center;
+    margin-left: 0;
   }
   .kontakt h2 {
     margin-top: 50px;
     margin-bottom: 12px;
+    margin-left: 0;
   }
   .kontakt h3 {
     margin-top: 18px;
+    margin-left: 0;
   }
   .kontakt ul {
     margin-top: 4px;
+    margin-left: 0;
   }
   .kontakt li {
     margin-top: 2px;
     list-style-type: none;
+    margin-left: 0;
   }
   .kontakt .hovedkontor {
     -ms-grid-column: 2;
     -ms-grid-column-span: 1;
     grid-column: 2/3;
+    -ms-grid-column-align: center;
+        justify-self: center;
   }
   .kontakt .kundeservice {
     -ms-grid-column: 3;
     -ms-grid-column-span: 1;
     grid-column: 3/4;
+    -ms-grid-column-align: center;
+        justify-self: center;
   }
   .kontakt .kontaktpersoner {
     -ms-grid-column: 4;
     -ms-grid-column-span: 1;
     grid-column: 4/5;
+    -ms-grid-column-align: center;
+        justify-self: center;
   }
   .kontakt .salg {
     -ms-grid-column: 5;
     -ms-grid-column-span: 1;
     grid-column: 5/6;
+    -ms-grid-column-align: center;
+        justify-self: center;
   }
   /*Kontakt - End*/
   /*Footer*/
