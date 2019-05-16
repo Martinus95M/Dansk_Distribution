@@ -30,6 +30,7 @@ html, body {
 }
 
 ::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
   -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
 }
 
@@ -108,6 +109,66 @@ header .container {
 }
 
 /*Navigation - End*/
+/*Index*/
+/*Index - End*/
+#sec-A {
+  position: relative;
+}
+
+#sec-A img {
+  width: 100%;
+  height: auto;
+}
+
+#sec-A .infoboks {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  position: absolute;
+  width: 100%;
+  height: 100px;
+  bottom: 0;
+  background-color: #262626;
+  opacity: .7;
+}
+
+#sec-A .infoboks .boks {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+  -ms-grid-rows: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+  width: 100%;
+  background-color: #262626;
+  opacity: .7;
+  text-align: center;
+}
+
+#sec-A .infoboks .boks:nth-child(2) {
+  border-left: 1px solid #F6F5F7;
+  border-right: 1px solid #F6F5F7;
+}
+
+#sec-A .infoboks .boks:hover {
+  opacity: 1;
+}
+
+#sec-A .infoboks .boks h3, #sec-A .infoboks .boks p {
+  -webkit-transform: translateY(25%);
+          transform: translateY(25%);
+  opacity: 1;
+}
+
+#sec-A .infoboks .boks h3 {
+  font-size: 1em;
+}
+
+#sec-A .infoboks .boks p {
+  font-size: .7em;
+}
+
 /*Kontakt*/
 .kontakt {
   display: block;
@@ -304,6 +365,11 @@ footer #klovnesponsor {
   -ms-grid-column-align: center;
       justify-self: center;
   margin-bottom: 2em;
+}
+
+footer #klovnesponsor img {
+  width: 100%;
+  height: auto;
 }
 
 /*Footer - End*/
