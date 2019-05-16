@@ -642,8 +642,8 @@ footer #klovnesponsor img {
   .kontakt {
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: 1fr 2fr 2fr 2fr 2fr 1fr;
-        grid-template-columns: 1fr 2fr 2fr 2fr 2fr 1fr;
+    -ms-grid-columns: 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-auto-rows: minmax(30px, auto);
     grid-row-gap: 25px;
     margin-top: 75px;
@@ -679,33 +679,96 @@ footer #klovnesponsor img {
     list-style-type: none;
     margin-left: 0;
   }
+  .kontakt #hvid-baggrund-1 {
+    -ms-grid-row: 2;
+    grid-row: 2;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+    grid-column: 1/2;
+    z-index: 0;
+    background-color: #fff;
+  }
+  .kontakt #roed-baggrund-1 {
+    -ms-grid-row: 2;
+    grid-row: 2;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+    grid-column: 2/3;
+    z-index: 0;
+    background-color: #d71920;
+  }
+  .kontakt #hvid-baggrund-2 {
+    -ms-grid-row: 2;
+    grid-row: 2;
+    -ms-grid-column: 3;
+    -ms-grid-column-span: 1;
+    grid-column: 3/4;
+    z-index: 0;
+    background-color: #fff;
+  }
+  .kontakt #roed-baggrund-2 {
+    -ms-grid-row: 2;
+    grid-row: 2;
+    -ms-grid-column: 4;
+    -ms-grid-column-span: 1;
+    grid-column: 4/5;
+    z-index: 0;
+    background-color: #d71920;
+  }
+  .kontakt #hvid-baggrund-3 {
+    display: none;
+  }
   .kontakt .hovedkontor {
+    -ms-grid-row: 2;
+    grid-row: 2;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+    grid-column: 1/2;
+    -ms-grid-column-align: center;
+        justify-self: center;
+    z-index: 1;
+  }
+  .kontakt .hovedkontor h2 {
+    color: black;
+  }
+  .kontakt .hovedkontor li {
+    color: black;
+  }
+  .kontakt .kundeservice {
+    -ms-grid-row: 2;
+    grid-row: 2;
     -ms-grid-column: 2;
     -ms-grid-column-span: 1;
     grid-column: 2/3;
     -ms-grid-column-align: center;
         justify-self: center;
+    z-index: 1;
   }
-  .kontakt .kundeservice {
+  .kontakt .kontaktpersoner {
+    -ms-grid-row: 2;
+    grid-row: 2;
     -ms-grid-column: 3;
     -ms-grid-column-span: 1;
     grid-column: 3/4;
     -ms-grid-column-align: center;
         justify-self: center;
+    z-index: 1;
   }
-  .kontakt .kontaktpersoner {
+  .kontakt .kontaktpersoner h2 {
+    color: black;
+  }
+  .kontakt .kontaktpersoner li {
+    color: black;
+  }
+  .kontakt .salg {
+    -ms-grid-row: 2;
+    grid-row: 2;
     -ms-grid-column: 4;
     -ms-grid-column-span: 1;
     grid-column: 4/5;
     -ms-grid-column-align: center;
         justify-self: center;
-  }
-  .kontakt .salg {
-    -ms-grid-column: 5;
-    -ms-grid-column-span: 1;
-    grid-column: 5/6;
-    -ms-grid-column-align: center;
-        justify-self: center;
+    z-index: 1;
   }
   /*Kontakt - End*/
   /*Footer*/

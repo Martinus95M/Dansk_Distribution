@@ -585,7 +585,7 @@ footer {
 
 .kontakt {
     display: grid;
-    grid-template-columns: 1fr 2fr 2fr 2fr 2fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-auto-rows: minmax(30px, auto);
     grid-row-gap: 25px;
     margin-top: 75px;
@@ -623,24 +623,80 @@ footer {
         margin-left: 0;
     }
 
-    .hovedkontor {
+    #hvid-baggrund-1 {
+        grid-row: 2;
+        grid-column: 1/2;
+        z-index: 0;
+        background-color: #fff;
+    }
+
+    #roed-baggrund-1 {
+        grid-row: 2;
         grid-column: 2/3;
+        z-index: 0;
+        background-color: #d71920;
+    }
+
+    #hvid-baggrund-2 {
+        grid-row: 2;
+        grid-column: 3/4;
+        z-index: 0;
+        background-color: #fff;
+    }
+
+    #roed-baggrund-2 {
+        grid-row: 2;
+        grid-column: 4/5;
+        z-index: 0;
+        background-color: #d71920;
+    }
+
+    #hvid-baggrund-3 {
+        display: none;
+    }
+
+    .hovedkontor {
+        grid-row: 2;
+        grid-column: 1/2;
         justify-self: center;
+        z-index: 1;
+
+        h2 {
+            color: black;
+        }
+
+        li {
+            color: black;
+        }
     }
 
     .kundeservice {
-        grid-column: 3/4;
+        grid-row: 2;
+        grid-column: 2/3;
         justify-self: center;
+        z-index: 1;
     }
 
     .kontaktpersoner {
-        grid-column: 4/5;
+        grid-row: 2;
+        grid-column: 3/4;
         justify-self: center;
+        z-index: 1;
+
+        h2 {
+            color: black;
+        }
+
+        li {
+            color: black;
+        }
     }
 
     .salg {
-        grid-column: 5/6;
+        grid-row: 2;
+        grid-column: 4/5;
         justify-self: center;
+        z-index: 1;
     }
 }
 
