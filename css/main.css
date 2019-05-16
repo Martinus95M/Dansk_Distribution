@@ -639,8 +639,8 @@ footer #klovnesponsor img {
   .lagerhotel {
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: 2fr 1fr 1fr 2fr;
-        grid-template-columns: 2fr 1fr 1fr 2fr;
+    -ms-grid-columns: 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-auto-rows: minmax(30px, auto);
     grid-row-gap: 25px;
     -ms-grid-row-align: start;
