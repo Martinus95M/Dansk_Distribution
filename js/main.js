@@ -5,9 +5,9 @@ $( document ).ready(function() {
     /*Double slider - Sign in/up form*/
 
     /*Count animation from number A to B*/
-    var counter = $('.flipCount'),
-    counterFrom = counter.data('counter-from'),
-    counterTo = counter.data('counter-to');
+  var counter = $('.flipCount'),
+  counterFrom = counter.data('counter-from'),
+  counterTo = counter.data('counter-to');
   
   $('.count').each(function() {
     $(this).prop('Counter', 0).animate({
