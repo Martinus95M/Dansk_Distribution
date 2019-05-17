@@ -14,7 +14,7 @@ $( document ).ready(function() {
       Counter: $(this).text()
     }, {
       duration: 3000,
-      easing: 'swing',
+      easing: 'linear',
       step: function(now) {
         $(this).text(Math.round(now * 100) / 100 + "%");
       }
