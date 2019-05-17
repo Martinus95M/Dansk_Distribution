@@ -581,9 +581,7 @@ header .container {
 }
 
 .kontakt .kontakt-titel {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  display: none;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -1187,7 +1185,7 @@ footer #klovnesponsor img {
         grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-auto-rows: minmax(30px, auto);
     grid-row-gap: 25px;
-    margin-top: 75px;
+    margin-top: 1em;
   }
   .kontakt .kontakt-titel {
     display: -ms-grid;
@@ -1201,15 +1199,18 @@ footer #klovnesponsor img {
   .kontakt h1 {
     text-align: center;
     margin-left: 0;
+    font-size: 2.5em;
   }
   .kontakt h2 {
     margin-top: 50px;
     margin-bottom: 12px;
     margin-left: 0;
+    font-size: 1.5em;
   }
   .kontakt h3 {
     margin-top: 18px;
     margin-left: 0;
+    font-size: 1.4em;
   }
   .kontakt ul {
     margin-top: 4px;
@@ -1219,6 +1220,7 @@ footer #klovnesponsor img {
     margin-top: 2px;
     list-style-type: none;
     margin-left: 0;
+    font-size: 1.2em;
   }
   .kontakt #hvid-baggrund-1 {
     -ms-grid-row: 2;
@@ -1260,6 +1262,7 @@ footer #klovnesponsor img {
     display: none;
   }
   .kontakt .hovedkontor {
+    width: 85%;
     -ms-grid-row: 2;
     grid-row: 2;
     -ms-grid-column: 1;
@@ -1276,6 +1279,7 @@ footer #klovnesponsor img {
     color: black;
   }
   .kontakt .kundeservice {
+    width: 85%;
     -ms-grid-row: 2;
     grid-row: 2;
     -ms-grid-column: 2;
@@ -1286,6 +1290,7 @@ footer #klovnesponsor img {
     z-index: 1;
   }
   .kontakt .kontaktpersoner {
+    width: 85%;
     -ms-grid-row: 2;
     grid-row: 2;
     -ms-grid-column: 3;
@@ -1302,6 +1307,7 @@ footer #klovnesponsor img {
     color: black;
   }
   .kontakt .salg {
+    width: 85%;
     -ms-grid-row: 2;
     grid-row: 2;
     -ms-grid-column: 4;
