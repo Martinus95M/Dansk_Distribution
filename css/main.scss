@@ -141,6 +141,9 @@ header {
                     color: $white;
                 }
                 .wrap {
+                    .count {
+                        text-align: justify;
+                    }
                     display: block;
                     h3, p {
                         opacity: 1;

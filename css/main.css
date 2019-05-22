@@ -170,6 +170,10 @@ header .container {
   display: block;
 }
 
+#sec-A .infoboks a .boks .wrap .count {
+  text-align: justify;
+}
+
 #sec-A .infoboks a .boks .wrap h3, #sec-A .infoboks a .boks .wrap p {
   opacity: 1;
   color: #F6F5F7;
