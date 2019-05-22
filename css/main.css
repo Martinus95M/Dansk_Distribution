@@ -72,6 +72,7 @@ header .nav-mobile {
   height: auto;
   bottom: 0;
   border-top: 2px solid #d71920;
+  z-index: 5;
 }
 
 header .nav-mobile ul {
@@ -301,15 +302,298 @@ header .container {
 }
 
 /*Index - End*/
+/*Transport & Lagerhotel (T&L)*/
+.tl-titel {
+  width: 100%;
+  margin-top: 2em;
+}
+
+.tl-titel h1 {
+  text-align: center;
+  font-size: 1.5em;
+}
+
+.transport {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-auto-rows: minmax(30px, auto);
+  -ms-grid-row-align: start;
+      align-self: start;
+  margin-top: 4em;
+}
+
+.transport #hvid-baggrund-1 {
+  -ms-grid-row: 3;
+  grid-row: 3;
+  -ms-grid-column: 5;
+  -ms-grid-column-span: 4;
+  grid-column: 5/9;
+  z-index: 0;
+  background-color: #fff;
+}
+
+.transport #roed-baggrund-1 {
+  -ms-grid-row: 3;
+  grid-row: 3;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 4;
+  grid-column: 1/5;
+  z-index: 0;
+  background-color: #d71920;
+}
+
+.transport #hvid-baggrund-2 {
+  display: none;
+}
+
+.transport #roed-baggrund-2 {
+  -ms-grid-row: 3;
+  grid-row: 3;
+  -ms-grid-column: 9;
+  -ms-grid-column-span: 4;
+  grid-column: 9/13;
+  z-index: 0;
+  background-color: #d71920;
+}
+
+.transport h2 {
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 10;
+  grid-column: 2/12;
+  font-size: 1.2em;
+  margin-bottom: 0;
+}
+
+.transport h3 {
+  margin-top: 30px;
+  margin-bottom: 10px;
+  text-align: center;
+  margin-bottom: 1.5em;
+  font-size: 0.8em;
+}
+
+.transport p {
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 10;
+  grid-column: 2/12;
+  margin-bottom: 2em;
+  font-size: 0.9em;
+}
+
+.transport .tl-billede-transport {
+  display: none;
+}
+
+.transport .tl_liste_1 {
+  -ms-grid-row: 3;
+  grid-row: 3;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 4;
+  grid-column: 1/5;
+  width: 80%;
+  -ms-grid-column-align: center;
+      justify-self: center;
+  z-index: 1;
+  padding-bottom: 1em;
+}
+
+.transport .tl_liste_1 h3 {
+  text-align: center;
+}
+
+.transport .tl_liste_1 p {
+  margin-bottom: 1.4em;
+  text-align: start;
+  margin-top: 3px;
+  font-size: 0.75em;
+}
+
+.transport .tl_liste_2 {
+  -ms-grid-row: 3;
+  grid-row: 3;
+  -ms-grid-column: 5;
+  -ms-grid-column-span: 4;
+  grid-column: 5/9;
+  width: 80%;
+  -ms-grid-column-align: center;
+      justify-self: center;
+  z-index: 1;
+  padding-bottom: 1em;
+}
+
+.transport .tl_liste_2 h3 {
+  color: black;
+}
+
+.transport .tl_liste_2 p {
+  text-align: start;
+  margin-top: 7px;
+  color: black;
+  margin-bottom: 1.4em;
+  font-size: 0.75em;
+}
+
+.transport .tl_liste_3 {
+  -ms-grid-row: 3;
+  grid-row: 3;
+  -ms-grid-column: 9;
+  -ms-grid-column-span: 4;
+  grid-column: 9/13;
+  width: 80%;
+  -ms-grid-column-align: center;
+      justify-self: center;
+  z-index: 1;
+  padding-bottom: 1em;
+}
+
+.transport .tl_liste_3 p {
+  text-align: start;
+  margin-top: 3px;
+  margin-bottom: 1.4em;
+  font-size: 0.75em;
+}
+
+.lagerhotel {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-auto-rows: minmax(30px, auto);
+  -ms-grid-row-align: start;
+      align-self: start;
+  margin-top: 5em;
+}
+
+.lagerhotel #hvid-baggrund-3 {
+  -ms-grid-row: 3;
+  grid-row: 3;
+  -ms-grid-column: 7;
+  -ms-grid-column-span: 6;
+  grid-column: 7/13;
+  z-index: 0;
+  background-color: #fff;
+}
+
+.lagerhotel #roed-baggrund-3 {
+  -ms-grid-row: 3;
+  grid-row: 3;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 6;
+  grid-column: 1/7;
+  z-index: 0;
+  background-color: #d71920;
+}
+
+.lagerhotel h2 {
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 10;
+  grid-column: 2/12;
+  -ms-grid-column-align: start;
+      justify-self: start;
+  font-size: 1.2em;
+}
+
+.lagerhotel h3 {
+  margin-top: 30px;
+  margin-bottom: 1.4em;
+  text-align: center;
+  font-size: 0.8em;
+}
+
+.lagerhotel p {
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 10;
+  grid-column: 2/12;
+  -ms-grid-column-align: start;
+      justify-self: start;
+  margin-bottom: 2em;
+  font-size: 0.9em;
+}
+
+.lagerhotel .tl-billede-lager {
+  display: none;
+}
+
+.lagerhotel .tl_liste_4 {
+  -ms-grid-row: 3;
+  grid-row: 3;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 6;
+  grid-column: 1/7;
+  width: 85%;
+  -ms-grid-column-align: center;
+      justify-self: center;
+  z-index: 1;
+  padding-top: 0;
+  padding-bottom: 1em;
+}
+
+.lagerhotel .tl_liste_4 h3 {
+  margin-bottom: 2.9em;
+}
+
+.lagerhotel .tl_liste_4 p {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 3;
+  grid-column: 1/4;
+  text-align: start;
+  margin-bottom: 1.4em;
+  margin-top: 3px;
+  font-size: 0.75em;
+}
+
+.lagerhotel .tl_liste_5 {
+  -ms-grid-row: 3;
+  grid-row: 3;
+  width: 85%;
+  -ms-grid-column: 7;
+  -ms-grid-column-span: 6;
+  grid-column: 7/13;
+  -ms-grid-column-align: center;
+      justify-self: center;
+  z-index: 1;
+  padding-top: 0;
+  padding-bottom: 1em;
+}
+
+.lagerhotel .tl_liste_5 h3 {
+  color: black;
+}
+
+.lagerhotel .tl_liste_5 p {
+  margin-top: 3px;
+  margin-bottom: 1.4em;
+  color: black;
+  font-size: 0.75em;
+}
+
+.lagerhotel .tl_liste_5 .tl-liste-5-1 {
+  float: left;
+}
+
+.lagerhotel .tl_liste_5 .tl-liste-5-2 {
+  float: right;
+}
+
+.lagerhotel .bundtekst {
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 10;
+  grid-column: 2/12;
+  -ms-grid-column-align: center;
+      justify-self: center;
+  margin-top: 2em;
+}
+
+/*Transport & Lagerhotel (T&L) - End*/
 /*Kontakt*/
 .kontakt {
   display: block;
 }
 
 .kontakt .kontakt-titel {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  display: none;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -662,7 +946,8 @@ footer #klovnesponsor img {
   /*Transport & Lagerhotel*/
   .tl-titel {
     width: 100%;
-    margin-top: 100px;
+    margin-top: 3em;
+    font-size: 1.5em;
   }
   .tl-titel h1 {
     text-align: center;
@@ -673,7 +958,6 @@ footer #klovnesponsor img {
     -ms-grid-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-auto-rows: minmax(30px, auto);
-    grid-row-gap: 25px;
     -ms-grid-row-align: start;
         align-self: start;
     margin-top: 4em;
@@ -712,7 +996,8 @@ footer #klovnesponsor img {
     -ms-grid-column: 2;
     -ms-grid-column-span: 7;
     grid-column: 2/9;
-    margin-bottom: 1.5em;
+    font-size: 2em;
+    margin-bottom: 0.2em;
   }
   .transport h3 {
     margin-top: 30px;
@@ -724,7 +1009,23 @@ footer #klovnesponsor img {
     -ms-grid-column: 2;
     -ms-grid-column-span: 7;
     grid-column: 2/9;
-    margin-bottom: 1.4em;
+    margin-bottom: 4em;
+    font-size: 1.2em;
+  }
+  .transport .tl-billede-transport {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 2;
+    grid-row: 1/3;
+    -ms-grid-column: 10;
+    -ms-grid-column-span: 3;
+    grid-column: 10/13;
+    -ms-grid-row-align: end;
+        align-self: end;
+  }
+  .transport .tl-billede-transport img {
+    width: 100%;
   }
   .transport .tl_liste_1 {
     -ms-grid-row: 3;
@@ -739,13 +1040,13 @@ footer #klovnesponsor img {
   }
   .transport .tl_liste_1 h3 {
     text-align: center;
+    font-size: 1.54em;
   }
   .transport .tl_liste_1 p {
-    -ms-grid-column: 1;
-    -ms-grid-column-span: 3;
-    grid-column: 1/4;
+    margin-bottom: 1.4em;
     text-align: start;
     margin-top: 3px;
+    font-size: 1.2em;
   }
   .transport .tl_liste_2 {
     -ms-grid-row: 3;
@@ -760,11 +1061,14 @@ footer #klovnesponsor img {
   }
   .transport .tl_liste_2 h3 {
     color: black;
+    font-size: 1.54em;
   }
   .transport .tl_liste_2 p {
     text-align: start;
     margin-top: 7px;
     color: black;
+    margin-bottom: 1.4em;
+    font-size: 1.2em;
   }
   .transport .tl_liste_3 {
     -ms-grid-row: 3;
@@ -777,9 +1081,14 @@ footer #klovnesponsor img {
         justify-self: center;
     z-index: 1;
   }
+  .transport .tl_liste_3 h3 {
+    font-size: 1.54em;
+  }
   .transport .tl_liste_3 p {
     text-align: start;
     margin-top: 3px;
+    margin-bottom: 1.4em;
+    font-size: 1.2em;
   }
   .lagerhotel {
     display: -ms-grid;
@@ -787,7 +1096,6 @@ footer #klovnesponsor img {
     -ms-grid-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-auto-rows: minmax(30px, auto);
-    grid-row-gap: 25px;
     -ms-grid-row-align: start;
         align-self: start;
     margin-top: 4em;
@@ -816,11 +1124,16 @@ footer #klovnesponsor img {
     grid-column: 5/12;
     -ms-grid-column-align: start;
         justify-self: start;
+    -ms-flex-item-align: end;
+        -ms-grid-row-align: end;
+        align-self: end;
+    font-size: 2em;
   }
   .lagerhotel h3 {
     margin-top: 30px;
     margin-bottom: 1.4em;
     text-align: center;
+    margin-bottom: 1.5em;
   }
   .lagerhotel p {
     -ms-grid-column: 5;
@@ -828,6 +1141,26 @@ footer #klovnesponsor img {
     grid-column: 5/12;
     -ms-grid-column-align: center;
         justify-self: center;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+    margin-bottom: 4em;
+    font-size: 1.2em;
+  }
+  .lagerhotel .tl-billede-lager {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 2;
+    grid-row: 1/3;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 3;
+    grid-column: 1/4;
+    -ms-grid-row-align: end;
+        align-self: end;
+  }
+  .lagerhotel .tl-billede-lager img {
+    max-width: 100%;
   }
   .lagerhotel .tl_liste_4 {
     -ms-grid-row: 3;
@@ -842,6 +1175,9 @@ footer #klovnesponsor img {
     padding-top: 2.5em;
     padding-bottom: 1.5em;
   }
+  .lagerhotel .tl_liste_4 h3 {
+    font-size: 1.54em;
+  }
   .lagerhotel .tl_liste_4 p {
     -ms-grid-column: 1;
     -ms-grid-column-span: 3;
@@ -849,6 +1185,7 @@ footer #klovnesponsor img {
     text-align: start;
     margin-bottom: 1.4em;
     margin-top: 3px;
+    font-size: 1.2em;
   }
   .lagerhotel .tl_liste_5 {
     -ms-grid-row: 3;
@@ -865,11 +1202,13 @@ footer #klovnesponsor img {
   }
   .lagerhotel .tl_liste_5 h3 {
     color: black;
+    font-size: 1.54em;
   }
   .lagerhotel .tl_liste_5 p {
     margin-top: 3px;
     margin-bottom: 1.4em;
     color: black;
+    font-size: 1.2em;
   }
   .lagerhotel .tl_liste_5 .tl-liste-5-1 {
     float: left;
@@ -883,8 +1222,7 @@ footer #klovnesponsor img {
     grid-column: 1/13;
     -ms-grid-column-align: center;
         justify-self: center;
-    margin-top: 2em;
-    margin-bottom: 3em;
+    margin-top: 4em;
   }
   /*Transport & Lagerhotel - End*/
   /*Kontakt*/
@@ -895,7 +1233,7 @@ footer #klovnesponsor img {
         grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-auto-rows: minmax(30px, auto);
     grid-row-gap: 25px;
-    margin-top: 75px;
+    margin-top: 1em;
   }
   .kontakt .kontakt-titel {
     display: -ms-grid;
@@ -909,15 +1247,18 @@ footer #klovnesponsor img {
   .kontakt h1 {
     text-align: center;
     margin-left: 0;
+    font-size: 2.5em;
   }
   .kontakt h2 {
     margin-top: 50px;
     margin-bottom: 12px;
     margin-left: 0;
+    font-size: 1.5em;
   }
   .kontakt h3 {
     margin-top: 18px;
     margin-left: 0;
+    font-size: 1.4em;
   }
   .kontakt ul {
     margin-top: 4px;
@@ -927,6 +1268,7 @@ footer #klovnesponsor img {
     margin-top: 2px;
     list-style-type: none;
     margin-left: 0;
+    font-size: 1.2em;
   }
   .kontakt #hvid-baggrund-1 {
     -ms-grid-row: 2;
@@ -968,6 +1310,7 @@ footer #klovnesponsor img {
     display: none;
   }
   .kontakt .hovedkontor {
+    width: 85%;
     -ms-grid-row: 2;
     grid-row: 2;
     -ms-grid-column: 1;
@@ -984,6 +1327,7 @@ footer #klovnesponsor img {
     color: black;
   }
   .kontakt .kundeservice {
+    width: 85%;
     -ms-grid-row: 2;
     grid-row: 2;
     -ms-grid-column: 2;
@@ -994,6 +1338,7 @@ footer #klovnesponsor img {
     z-index: 1;
   }
   .kontakt .kontaktpersoner {
+    width: 85%;
     -ms-grid-row: 2;
     grid-row: 2;
     -ms-grid-column: 3;
@@ -1010,6 +1355,7 @@ footer #klovnesponsor img {
     color: black;
   }
   .kontakt .salg {
+    width: 85%;
     -ms-grid-row: 2;
     grid-row: 2;
     -ms-grid-column: 4;
