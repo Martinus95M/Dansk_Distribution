@@ -50,6 +50,11 @@ h1, h2, h3 {
     color: $white;
     opacity: 1;
 }
+
+h1 {
+    font-size: 2em;
+}
+
 p, li {
     font-family: "Noah Regular";
     font-weight: normal;
@@ -128,6 +133,7 @@ header {
         width: 100%;
         height: 80px;
         bottom: 4px;
+        border-top: 1px solid $white;
         a {
             text-decoration: none;
             .boks {
@@ -144,18 +150,17 @@ header {
                     color: $white;
                 }
                 .wrap {
-                    .count {
-                        text-align: justify;
-                    }
                     h3, p {
+                        text-align: center;
                         opacity: 1;
                         color: $white;
+                        padding: .2rem;
                     }
                     h3 {
                         font-size: 1em;
                     }
                     p {
-                        font-size: .7em;
+                        font-size: .9em;
                     }
                 }
             }
@@ -662,6 +667,11 @@ footer {
 /*Footer - End*/
 
 @media screen and (min-width: 768px) {
+
+    h1 {
+        font-size: 3em;
+    }
+
     /*Navigation*/
     header {
         background-color: $background;
@@ -834,7 +844,7 @@ footer {
                             opacity: 1;
                         }
                         p {
-                            font-size: 1.2em;
+                            font-size: 1.5em;
                             opacity: 1;
                         }
                     }

@@ -48,6 +48,10 @@ h1, h2, h3 {
   opacity: 1;
 }
 
+h1 {
+  font-size: 2em;
+}
+
 p, li {
   font-family: "Noah Regular";
   font-weight: normal;
@@ -142,6 +146,7 @@ header .container {
   width: 100%;
   height: 80px;
   bottom: 4px;
+  border-top: 1px solid #F6F5F7;
 }
 
 #sec-A .infoboks a {
@@ -169,13 +174,11 @@ header .container {
   color: #F6F5F7;
 }
 
-#sec-A .infoboks a .boks .wrap .count {
-  text-align: justify;
-}
-
 #sec-A .infoboks a .boks .wrap h3, #sec-A .infoboks a .boks .wrap p {
+  text-align: center;
   opacity: 1;
   color: #F6F5F7;
+  padding: .2rem;
 }
 
 #sec-A .infoboks a .boks .wrap h3 {
@@ -183,7 +186,7 @@ header .container {
 }
 
 #sec-A .infoboks a .boks .wrap p {
-  font-size: .7em;
+  font-size: .9em;
 }
 
 #sec-A .infoboks a .border {
@@ -791,6 +794,9 @@ footer #klovnesponsor img {
 
 /*Footer - End*/
 @media screen and (min-width: 768px) {
+  h1 {
+    font-size: 3em;
+  }
   /*Navigation*/
   header {
     background-color: #262626;
@@ -965,7 +971,7 @@ footer #klovnesponsor img {
     opacity: 1;
   }
   #sec-A .infoboks a .boks .wrap p {
-    font-size: 1.2em;
+    font-size: 1.5em;
     opacity: 1;
   }
   .title {
