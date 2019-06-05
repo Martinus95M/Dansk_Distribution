@@ -52,11 +52,20 @@ h1 {
   font-size: 2em;
 }
 
+h2 {
+  font-size: 1.5em;
+}
+
+h3 {
+  font-size: 0.8em;
+}
+
 p, li {
   font-family: "Noah Regular";
   font-weight: normal;
   color: #F6F5F7;
   opacity: 1;
+  font-size: 1em;
 }
 
 a, a:visited {
@@ -311,7 +320,6 @@ header .container {
 
 .tl-titel h1 {
   text-align: center;
-  font-size: 1.5em;
   margin-bottom: 1.5em;
 }
 
@@ -334,7 +342,6 @@ header .container {
   -ms-grid-column: 2;
   -ms-grid-column-span: 1;
   grid-column: 2/3;
-  font-size: 1.2em;
   margin-bottom: 0.8em;
   padding-top: 0.5em;
 }
@@ -344,7 +351,6 @@ header .container {
   margin-bottom: 10px;
   text-align: center;
   margin-bottom: 1.5em;
-  font-size: 0.8em;
 }
 
 .transport .transport-tekst p {
@@ -354,7 +360,6 @@ header .container {
   -ms-flex-item-align: start;
       -ms-grid-row-align: start;
       align-self: start;
-  font-size: 0.9em;
   padding-bottom: 1em;
 }
 
@@ -435,7 +440,6 @@ header .container {
   padding-bottom: 1.4em;
   text-align: start;
   margin-top: 3px;
-  font-size: 0.75em;
   color: #F6F5F7;
 }
 
@@ -465,7 +469,6 @@ header .container {
   margin-top: 7px;
   color: #F6F5F7;
   margin-bottom: 1.4em;
-  font-size: 0.75em;
 }
 
 .transport .tl-lister-1 .tl_liste_3 {
@@ -493,7 +496,6 @@ header .container {
   text-align: start;
   margin-top: 3px;
   margin-bottom: 1.4em;
-  font-size: 0.75em;
   color: #F6F5F7;
 }
 
@@ -520,7 +522,6 @@ header .container {
   grid-column: 2/3;
   -ms-grid-column-align: start;
       justify-self: start;
-  font-size: 1.2em;
   margin-bottom: 0.8em;
   padding-top: 0.5em;
 }
@@ -529,7 +530,6 @@ header .container {
   margin-top: 30px;
   margin-bottom: 1.4em;
   text-align: center;
-  font-size: 0.8em;
 }
 
 .lagerhotel .lagerhotel-tekst p {
@@ -539,7 +539,6 @@ header .container {
   -ms-grid-column-align: start;
       justify-self: start;
   padding-bottom: 1em;
-  font-size: 0.9em;
 }
 
 .lagerhotel .lagerhotel-tekst .tl-billede-lager {
@@ -594,7 +593,6 @@ header .container {
 
 .lagerhotel .tl-lister-2 .tl_liste_4 h3 {
   color: #F6F5F7;
-  font-size: 0.8em;
   padding-top: 2em;
   padding-bottom: 2.2em;
   text-align: center;
@@ -607,7 +605,6 @@ header .container {
   text-align: start;
   margin-bottom: 1.4em;
   margin-top: 3px;
-  font-size: 0.75em;
   color: #F6F5F7;
 }
 
@@ -627,7 +624,6 @@ header .container {
 
 .lagerhotel .tl-lister-2 .tl_liste_5 h3 {
   color: #F6F5F7;
-  font-size: 0.8em;
   padding-top: 2em;
   padding-bottom: 1em;
   text-align: center;
@@ -637,7 +633,6 @@ header .container {
   margin-top: 3px;
   margin-bottom: 1.4em;
   color: #F6F5F7;
-  font-size: 0.75em;
 }
 
 .lagerhotel .tl-lister-2 .tl_liste_5 .tl-liste-5-1 {
@@ -1150,6 +1145,19 @@ footer #klovnesponsor img {
   h1 {
     font-size: 3em;
   }
+  h2 {
+    font-size: 2em;
+  }
+  h3 {
+    font-size: 1.5em;
+  }
+  p, li {
+    font-family: "Noah Regular";
+    font-weight: normal;
+    color: #F6F5F7;
+    opacity: 1;
+    font-size: 1em;
+  }
   /*Navigation*/
   header {
     background-color: #262626;
@@ -1423,7 +1431,6 @@ footer #klovnesponsor img {
   .tl-titel {
     width: 100%;
     margin-top: 3em;
-    font-size: 1.5em;
   }
   .tl-titel h1 {
     text-align: center;
@@ -1450,7 +1457,6 @@ footer #klovnesponsor img {
     -ms-grid-row: 2;
     -ms-grid-row-span: 1;
     grid-row: 2/3;
-    font-size: 1.2em;
     margin-bottom: 0;
   }
   .transport .transport-tekst h3 {
@@ -1458,7 +1464,6 @@ footer #klovnesponsor img {
     margin-bottom: 10px;
     text-align: center;
     margin-bottom: 1.5em;
-    font-size: 0.8em;
   }
   .transport .transport-tekst p {
     -ms-grid-column: 2;
@@ -1468,7 +1473,6 @@ footer #klovnesponsor img {
     -ms-grid-row-span: 1;
     grid-row: 3/4;
     margin-bottom: 2em;
-    font-size: 0.9em;
   }
   .transport .transport-tekst .tl-billede-transport {
     display: -ms-grid;
@@ -1550,7 +1554,6 @@ footer #klovnesponsor img {
     margin-bottom: 1.4em;
     text-align: start;
     margin-top: 3px;
-    font-size: 0.75em;
     color: #F6F5F7;
   }
   .transport .tl-lister-1 .tl_liste_2 {
@@ -1577,7 +1580,6 @@ footer #klovnesponsor img {
     margin-top: 7px;
     color: #F6F5F7;
     margin-bottom: 1.4em;
-    font-size: 0.75em;
   }
   .transport .tl-lister-1 .tl_liste_3 {
     -ms-grid-row: 1;
@@ -1602,7 +1604,6 @@ footer #klovnesponsor img {
     text-align: start;
     margin-top: 3px;
     margin-bottom: 1.4em;
-    font-size: 0.75em;
     color: #F6F5F7;
   }
   .lagerhotel {
@@ -1632,7 +1633,6 @@ footer #klovnesponsor img {
     -ms-flex-item-align: end;
         -ms-grid-row-align: end;
         align-self: end;
-    font-size: 2em;
   }
   .lagerhotel .lagerhotel-tekst h3 {
     margin-top: 30px;
@@ -1652,7 +1652,6 @@ footer #klovnesponsor img {
     -ms-flex-item-align: start;
         -ms-grid-row-align: start;
         align-self: start;
-    font-size: 1.2em;
   }
   .lagerhotel .lagerhotel-tekst .tl-billede-lager {
     display: -ms-grid;
@@ -1707,7 +1706,6 @@ footer #klovnesponsor img {
     padding-bottom: 1.5em;
   }
   .lagerhotel .tl-lister-2 .tl_liste_4 h3 {
-    font-size: 1.54em;
     text-align: center;
   }
   .lagerhotel .tl-lister-2 .tl_liste_4 p {
@@ -1717,7 +1715,6 @@ footer #klovnesponsor img {
     text-align: start;
     margin-bottom: 1.4em;
     margin-top: 3px;
-    font-size: 1.2em;
   }
   .lagerhotel .tl-lister-2 .tl_liste_5 {
     -ms-grid-row: 3;
@@ -1733,14 +1730,12 @@ footer #klovnesponsor img {
     padding-bottom: 1.5em;
   }
   .lagerhotel .tl-lister-2 .tl_liste_5 h3 {
-    font-size: 1.54em;
     text-align: center;
     padding-bottom: 1.5em;
   }
   .lagerhotel .tl-lister-2 .tl_liste_5 p {
     margin-top: 3px;
     margin-bottom: 1.4em;
-    font-size: 1.2em;
   }
   .lagerhotel .tl-lister-2 .tl_liste_5 .tl-liste-5-1 {
     float: left;
@@ -1776,18 +1771,15 @@ footer #klovnesponsor img {
   .kontakt h1 {
     text-align: center;
     margin-left: 0;
-    font-size: 2.5em;
   }
   .kontakt h2 {
     margin-top: 50px;
     margin-bottom: 12px;
     margin-left: 0;
-    font-size: 1.5em;
   }
   .kontakt h3 {
     margin-top: 18px;
     margin-left: 0;
-    font-size: 1.4em;
   }
   .kontakt ul {
     margin-top: 4px;
@@ -1797,7 +1789,6 @@ footer #klovnesponsor img {
     margin-top: 2px;
     list-style-type: none;
     margin-left: 0;
-    font-size: 1.2em;
   }
   .kontakt #graa-baggrund-1 {
     -ms-grid-row: 2;
@@ -2115,7 +2106,6 @@ footer #klovnesponsor img {
   }
   footer h2 {
     margin-top: 1em;
-    font-size: 1.2em;
     text-align: left;
   }
   footer li {
