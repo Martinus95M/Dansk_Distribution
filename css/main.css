@@ -1056,6 +1056,10 @@ footer #dadi li {
   text-align: right;
 }
 
+footer #dadi li:hover {
+  color: #e5343d;
+}
+
 footer #mit-dadi {
   -ms-grid-column: 3;
   -ms-grid-column-span: 1;
@@ -1079,6 +1083,22 @@ footer #mit-dadi li {
   text-align: right;
 }
 
+footer #mit-dadi li:hover {
+  color: #e5343d;
+  -webkit-transition-duration: 200ms;
+          transition-duration: 200ms;
+}
+
+footer #mit-dadi a {
+  text-align: right;
+}
+
+footer #mit-dadi a:hover {
+  color: #e5343d;
+  -webkit-transition-duration: 200ms;
+          transition-duration: 200ms;
+}
+
 footer #footer-kundeservice {
   -ms-grid-column: 2;
   -ms-grid-column-span: 1;
@@ -1100,6 +1120,16 @@ footer #footer-kundeservice h2 {
 
 footer #footer-kundeservice li {
   text-align: left;
+}
+
+footer #footer-kundeservice p {
+  text-align: left;
+}
+
+footer #footer-kundeservice p:hover {
+  color: #e5343d;
+  -webkit-transition-duration: 200ms;
+          transition-duration: 200ms;
 }
 
 footer #klovnesponsor {
@@ -1453,6 +1483,8 @@ footer #klovnesponsor img {
     -ms-grid-row: 1;
     -ms-grid-row-span: 3;
     grid-row: 1/4;
+    -ms-grid-column-align: end;
+        justify-self: end;
     overflow: hidden;
   }
   .transport .transport-tekst .tl-billede-transport img {
@@ -2174,6 +2206,11 @@ footer #klovnesponsor img {
   footer #dadi li {
     text-align: left;
   }
+  footer #dadi li:hover {
+    color: #e5343d;
+    -webkit-transition-duration: 200ms;
+            transition-duration: 200ms;
+  }
   footer #mit-dadi {
     -ms-grid-column: 3;
     -ms-grid-column-span: 1;
@@ -2193,6 +2230,19 @@ footer #klovnesponsor img {
   footer #mit-dadi li {
     text-align: left;
   }
+  footer #mit-dadi li:hover {
+    color: #e5343d;
+    -webkit-transition-duration: 200ms;
+            transition-duration: 200ms;
+  }
+  footer #mit-dadi a {
+    text-align: left;
+  }
+  footer #mit-dadi a:hover {
+    color: #e5343d;
+    -webkit-transition-duration: 200ms;
+            transition-duration: 200ms;
+  }
   footer #footer-kundeservice {
     -ms-grid-column: 4;
     -ms-grid-column-span: 2;
@@ -2211,6 +2261,14 @@ footer #klovnesponsor img {
   }
   footer #footer-kundeservice li {
     text-align: left;
+  }
+  footer #footer-kundeservice p {
+    text-align: left;
+  }
+  footer #footer-kundeservice p:hover {
+    color: #e5343d;
+    -webkit-transition-duration: 200ms;
+            transition-duration: 200ms;
   }
   footer #klovnesponsor {
     -ms-grid-column: 5;
