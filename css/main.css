@@ -369,10 +369,6 @@ header .container {
   -ms-grid-column: 2;
   -ms-grid-column-span: 1;
   grid-column: 2/3;
-<<<<<<< HEAD
-=======
-  font-size: 1.5em;
->>>>>>> 54b03afaf227b60e6badc9fba787329157ea315a
   margin-bottom: 0.8em;
   padding-top: 0.5em;
 }
@@ -391,10 +387,6 @@ header .container {
   -ms-flex-item-align: start;
       -ms-grid-row-align: start;
       align-self: start;
-<<<<<<< HEAD
-=======
-  font-size: 1em;
->>>>>>> 54b03afaf227b60e6badc9fba787329157ea315a
   padding-bottom: 1em;
 }
 
@@ -477,12 +469,7 @@ header .container {
   padding-bottom: 1.4em;
   text-align: start;
   margin-top: 3px;
-<<<<<<< HEAD
   color: #F6F5F7;
-=======
-  font-size: 0.75em;
-  color: black;
->>>>>>> 54b03afaf227b60e6badc9fba787329157ea315a
 }
 
 .transport .tl-lister-1 .tl_liste_2 {
@@ -540,12 +527,7 @@ header .container {
   text-align: start;
   margin-top: 3px;
   margin-bottom: 1.4em;
-<<<<<<< HEAD
   color: #F6F5F7;
-=======
-  font-size: 0.75em;
-  color: black;
->>>>>>> 54b03afaf227b60e6badc9fba787329157ea315a
 }
 
 .lagerhotel {
@@ -571,10 +553,6 @@ header .container {
   grid-column: 2/3;
   -ms-grid-column-align: start;
       justify-self: start;
-<<<<<<< HEAD
-=======
-  font-size: 1.5em;
->>>>>>> 54b03afaf227b60e6badc9fba787329157ea315a
   margin-bottom: 0.8em;
   padding-top: 0.5em;
 }
@@ -645,12 +623,7 @@ header .container {
 }
 
 .lagerhotel .tl-lister-2 .tl_liste_4 h3 {
-<<<<<<< HEAD
   color: #F6F5F7;
-=======
-  color: black;
-  font-size: 0.8em;
->>>>>>> 54b03afaf227b60e6badc9fba787329157ea315a
   padding-top: 2em;
   padding-bottom: 2.2em;
   text-align: center;
@@ -663,12 +636,7 @@ header .container {
   text-align: start;
   margin-bottom: 1.4em;
   margin-top: 3px;
-<<<<<<< HEAD
   color: #F6F5F7;
-=======
-  font-size: 0.75em;
-  color: black;
->>>>>>> 54b03afaf227b60e6badc9fba787329157ea315a
 }
 
 .lagerhotel .tl-lister-2 .tl_liste_5 {
@@ -1500,12 +1468,7 @@ footer #klovnesponsor img {
   .tl-titel {
     display: block;
     width: 100%;
-<<<<<<< HEAD
     margin-top: 3em;
-=======
-    margin-top: 1em;
-    font-size: 3em;
->>>>>>> 54b03afaf227b60e6badc9fba787329157ea315a
   }
   .tl-titel h1 {
     text-align: center;
@@ -1532,10 +1495,6 @@ footer #klovnesponsor img {
     -ms-grid-row: 2;
     -ms-grid-row-span: 1;
     grid-row: 2/3;
-<<<<<<< HEAD
-=======
-    font-size: 2em;
->>>>>>> 54b03afaf227b60e6badc9fba787329157ea315a
     margin-bottom: 0;
     padding-top: 0;
     -ms-flex-item-align: end;
@@ -1557,10 +1516,6 @@ footer #klovnesponsor img {
     grid-row: 3/4;
     margin-top: 0.8em;
     margin-bottom: 2em;
-<<<<<<< HEAD
-=======
-    font-size: 1.2em;
->>>>>>> 54b03afaf227b60e6badc9fba787329157ea315a
   }
   .transport .transport-tekst .tl-billede-transport {
     display: -ms-grid;
@@ -1647,12 +1602,7 @@ footer #klovnesponsor img {
   .transport .tl-lister-1 .tl_liste_1 p {
     text-align: start;
     margin-top: 3px;
-<<<<<<< HEAD
     color: #F6F5F7;
-=======
-    font-size: 1.2em;
-    color: black;
->>>>>>> 54b03afaf227b60e6badc9fba787329157ea315a
   }
   .transport .tl-lister-1 .tl_liste_2 {
     -ms-grid-row: 1;
@@ -1679,10 +1629,6 @@ footer #klovnesponsor img {
     margin-top: 7px;
     color: #F6F5F7;
     margin-bottom: 1.4em;
-<<<<<<< HEAD
-=======
-    font-size: 1.2em;
->>>>>>> 54b03afaf227b60e6badc9fba787329157ea315a
   }
   .transport .tl-lister-1 .tl_liste_3 {
     -ms-grid-row: 1;
@@ -1708,12 +1654,7 @@ footer #klovnesponsor img {
     text-align: start;
     margin-top: 3px;
     margin-bottom: 1.4em;
-<<<<<<< HEAD
     color: #F6F5F7;
-=======
-    font-size: 1.2em;
-    color: black;
->>>>>>> 54b03afaf227b60e6badc9fba787329157ea315a
   }
   .lagerhotel {
     width: 100%;
@@ -1815,10 +1756,6 @@ footer #klovnesponsor img {
     padding-bottom: 1.5em;
   }
   .lagerhotel .tl-lister-2 .tl_liste_4 h3 {
-<<<<<<< HEAD
-=======
-    font-size: 1.5em;
->>>>>>> 54b03afaf227b60e6badc9fba787329157ea315a
     text-align: center;
     padding-bottom: 1.2em;
   }
@@ -1844,10 +1781,6 @@ footer #klovnesponsor img {
     padding-bottom: 1.5em;
   }
   .lagerhotel .tl-lister-2 .tl_liste_5 h3 {
-<<<<<<< HEAD
-=======
-    font-size: 1.5em;
->>>>>>> 54b03afaf227b60e6badc9fba787329157ea315a
     text-align: center;
     padding-bottom: 1.5em;
   }
@@ -1890,27 +1823,15 @@ footer #klovnesponsor img {
   .kontakt h1 {
     text-align: center;
     margin-left: 0;
-<<<<<<< HEAD
-=======
-    font-size: 3em;
->>>>>>> 54b03afaf227b60e6badc9fba787329157ea315a
   }
   .kontakt h2 {
     margin-top: 50px;
     margin-bottom: 12px;
     margin-left: 0;
-<<<<<<< HEAD
-=======
-    font-size: 2em;
->>>>>>> 54b03afaf227b60e6badc9fba787329157ea315a
   }
   .kontakt h3 {
     margin-top: 18px;
     margin-left: 0;
-<<<<<<< HEAD
-=======
-    font-size: 1.5em;
->>>>>>> 54b03afaf227b60e6badc9fba787329157ea315a
   }
   .kontakt ul {
     margin-top: 4px;
