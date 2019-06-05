@@ -1862,15 +1862,6 @@ footer #klovnesponsor img {
         justify-self: center;
     z-index: 1;
   }
-  .kontakt .kundeservice h2 {
-    color: black;
-  }
-  .kontakt .kundeservice h3 {
-    color: black;
-  }
-  .kontakt .kundeservice li {
-    color: black;
-  }
   .kontakt .kontaktpersoner {
     width: 85%;
     -ms-grid-row: 2;
@@ -1898,15 +1889,6 @@ footer #klovnesponsor img {
     -ms-grid-column-align: center;
         justify-self: center;
     z-index: 1;
-  }
-  .kontakt .salg h2 {
-    color: black;
-  }
-  .kontakt .salg h3 {
-    color: black;
-  }
-  .kontakt .salg li {
-    color: black;
   }
   /*Kontakt - End*/
   /*Booking*/
