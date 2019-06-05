@@ -290,6 +290,7 @@ header {
 .tl-titel {
       width: 100%;
       margin-top: 2em;
+      display: none;
 
       h1 {
           text-align: center;
@@ -309,6 +310,10 @@ header {
 
         h2 {
             grid-column: 2/3;
+<<<<<<< HEAD
+=======
+            font-size: 1.5em;
+>>>>>>> 54b03afaf227b60e6badc9fba787329157ea315a
             margin-bottom: 0.8em;
             padding-top: 0.5em;
         }
@@ -323,6 +328,10 @@ header {
         p {
             grid-column: 2/3;
             align-self: start;
+<<<<<<< HEAD
+=======
+            font-size: 1em;
+>>>>>>> 54b03afaf227b60e6badc9fba787329157ea315a
             padding-bottom: 1em;
         }
 
@@ -342,15 +351,15 @@ header {
             grid-column: 2/3;
             z-index: 0;
             background-color: $background;
-            border-left: 1px solid #F6F5F7;
-            border-right: 1px solid #F6F5F7;
+            border: 4px inset $gray;
         }
 
         #hvid-baggrund-1 {
             grid-row: 1/2;
             grid-column: 1/2;
             z-index: 0;
-            background-color: $background;
+            background-color: $white;
+            border: 4px inset $gray;
         }
 
         #graa-baggrund-2 {
@@ -361,7 +370,8 @@ header {
             grid-row: 1/2;
             grid-column: 3/4;
             z-index: 0;
-            background-color: $background;
+            background-color: $white;
+            border: 4px inset $gray;
         }
 
         .tl_liste_1 {
@@ -374,7 +384,8 @@ header {
 
             h3 {
                 text-align: center;
-                color: $white;
+                color: black;
+                font-size: 0.8em;
                 padding-top: 2em;
                 padding-bottom: 1em;
             }
@@ -383,7 +394,12 @@ header {
                 padding-bottom: 1.4em;
                 text-align: start;
                 margin-top: 3px;
+<<<<<<< HEAD
                 color: $white;
+=======
+                font-size: 0.75em;
+                color: black;
+>>>>>>> 54b03afaf227b60e6badc9fba787329157ea315a
             }
         }
 
@@ -398,6 +414,7 @@ header {
             h3 {
                 text-align: center;
                 color: $white;
+                font-size: 0.8em;
                 padding-top: 2em;
                 padding-bottom: 2em;
             }
@@ -420,7 +437,8 @@ header {
 
             h3 {
                 text-align: center;
-                color: $white;
+                color: black;
+                font-size: 0.8em;
                 padding-top: 2em;
                 padding-bottom: 2.3em;
             }
@@ -429,7 +447,12 @@ header {
             text-align: start;
             margin-top: 3px;
             margin-bottom: 1.4em;
+<<<<<<< HEAD
             color: $white;
+=======
+            font-size: 0.75em;
+            color: black;
+>>>>>>> 54b03afaf227b60e6badc9fba787329157ea315a
             }
         }
     }
@@ -451,6 +474,10 @@ header {
     h2 {
         grid-column: 2/3;
        justify-self: start;
+<<<<<<< HEAD
+=======
+       font-size: 1.5em;
+>>>>>>> 54b03afaf227b60e6badc9fba787329157ea315a
        margin-bottom: 0.8em;
        padding-top: 0.5em;
     }
@@ -478,21 +505,21 @@ header {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
-    border-bottom: 1px solid #F6F5F7;
 
 #graa-baggrund-3 {
     grid-row: 1;
     grid-column: 2/3;
     z-index: 0;
     background-color: $background;
-    border-left: 1px solid #F6F5F7;
+    border: 4px inset $gray;
 }
 
 #hvid-baggrund-3 {
     grid-row: 1;
     grid-column: 1/2;
     z-index: 0;
-    background-color: $background;
+    background-color: $white;
+    border: 4px inset $gray;
 }
 
 .tl_liste_4 {
@@ -505,7 +532,12 @@ header {
         padding-bottom: 1em;
 
     h3 {
+<<<<<<< HEAD
         color: $white;
+=======
+        color: black;
+        font-size: 0.8em;
+>>>>>>> 54b03afaf227b60e6badc9fba787329157ea315a
         padding-top: 2em;
         padding-bottom: 2.2em;
         text-align: center;
@@ -516,7 +548,12 @@ header {
         text-align: start;
         margin-bottom: 1.4em;
         margin-top: 3px;
+<<<<<<< HEAD
         color: $white;
+=======
+        font-size: 0.75em;
+        color: black;
+>>>>>>> 54b03afaf227b60e6badc9fba787329157ea315a
     }
 }
 
@@ -559,6 +596,10 @@ header {
     margin-right: auto;
     margin-top: 2em;
     margin-bottom: 2em;
+
+    p {
+        font-size: 1em;
+    }
   }
 }
 
@@ -578,12 +619,14 @@ header {
     h2 {
         margin-bottom: 1em;
         margin-left: 0.8em;
+        font-size: 1.5em;
     }
 
     h3 {
         margin-top: 1.2em;
         margin-bottom: 0.5em;
-        margin-left: 0.8em;
+        margin-left: 1em;
+        font-size: 1.2em;
     }
 
     ul {
@@ -1245,12 +1288,18 @@ footer {
 /*Transport & Lagerhotel*/
 
   .tl-titel {
+      display: block;
       width: 100%;
+<<<<<<< HEAD
       margin-top: 3em;
+=======
+      margin-top: 1em;
+      font-size: 3em;
+>>>>>>> 54b03afaf227b60e6badc9fba787329157ea315a
 
       h1 {
           text-align: center;
-          margin-bottom: 1.5em;
+          margin-bottom: 0.5em;
       }
   }
 
@@ -1259,15 +1308,21 @@ footer {
 
   .transport-tekst {
       display: grid;
-      grid-template-columns: 1fr 50% 2fr 20% 1fr;
-      grid-template-rows: 1fr 1fr 6fr;
+      grid-template-columns: 1fr 50% 2fr 4fr;
+      grid-template-rows: 1fr 2fr 6fr;
       align-self: start;
       background-color: $red;
 
       h2 {
           grid-column: 2/3;
           grid-row: 2/3;
+<<<<<<< HEAD
+=======
+          font-size: 2em;
+>>>>>>> 54b03afaf227b60e6badc9fba787329157ea315a
           margin-bottom: 0;
+          padding-top: 0;
+          align-self: end;
       }
   
       h3 {
@@ -1280,18 +1335,24 @@ footer {
       p {
           grid-column: 2/3;
           grid-row: 3/4;
+          margin-top: 0.8em;
           margin-bottom: 2em;
+<<<<<<< HEAD
+=======
+          font-size: 1.2em;
+>>>>>>> 54b03afaf227b60e6badc9fba787329157ea315a
       }
 
       .tl-billede-transport {
         display: grid;
-        grid-column: 4/6;
+        grid-column: 4/5;
         grid-row: 1/4;
-        justify-self: end;
+        align-self: end;
         overflow: hidden;
 
         img {
-            height: 18em;
+            height: 19.5em;
+            justify-self: end;
         }
     }
   }
@@ -1301,18 +1362,21 @@ footer {
       grid-template-columns: 1fr 1fr 1fr;
       grid-template-rows: 1fr;
 
+
       #graa-baggrund-1 {
           grid-row: 1/2;
           grid-column: 2/3;
           z-index: 0;
           background-color: $background;
+          border: 4px inset $gray;
       }
 
       #hvid-baggrund-1 {
         grid-row: 1/2;
         grid-column: 1/2;
         z-index: 0;
-        background-color: $background;
+        background-color: $white;
+        border: 4px inset $gray;
       }
 
       #graa-baggrund-2 {
@@ -1323,7 +1387,8 @@ footer {
         grid-row: 1/2;
         grid-column: 3/4;
         z-index: 0;
-        background-color: $background;
+        background-color: $white;
+        border: 4px inset $gray;
       }
 
       .tl_liste_1 {
@@ -1336,16 +1401,21 @@ footer {
 
           h3 {
               text-align: center;
-              color: $white;
+              color: black;
               padding-top: 2em;
               padding-bottom: 1em;
+              font-size: 1.5em;
           }
 
           p {
-              margin-bottom: 1.4em;
               text-align: start;
               margin-top: 3px;
+<<<<<<< HEAD
               color: $white;
+=======
+              font-size: 1.2em;
+              color: black;
+>>>>>>> 54b03afaf227b60e6badc9fba787329157ea315a
           }
       }
 
@@ -1362,6 +1432,7 @@ footer {
               text-align: center;
               padding-top: 2em;
               padding-bottom: 1em;
+              font-size: 1.5em;
           }
 
           p {
@@ -1369,6 +1440,10 @@ footer {
               margin-top: 7px;
               color: $white;
               margin-bottom: 1.4em;
+<<<<<<< HEAD
+=======
+              font-size: 1.2em;
+>>>>>>> 54b03afaf227b60e6badc9fba787329157ea315a
           }
       }
 
@@ -1381,17 +1456,23 @@ footer {
         padding-bottom: 1em;
 
           h3 {
-              color: $white;
+              color: black;
               text-align: center;
               padding-top: 2em;
               padding-bottom: 1em;
+              font-size: 1.5em;
           }
 
           p {
           text-align: start;
           margin-top: 3px;
           margin-bottom: 1.4em;
+<<<<<<< HEAD
           color: $white;
+=======
+          font-size: 1.2em;
+          color: black;
+>>>>>>> 54b03afaf227b60e6badc9fba787329157ea315a
           }
       }
   }
@@ -1467,11 +1548,16 @@ footer {
             width: 85%;
             justify-self: center;
             z-index: 1;
-            padding-top: 2.5em;
+            padding-top: 0;
             padding-bottom: 1.5em;
 
             h3 {
+<<<<<<< HEAD
+=======
+                font-size: 1.5em;
+>>>>>>> 54b03afaf227b60e6badc9fba787329157ea315a
                 text-align: center;
+                padding-bottom: 1.2em;
             }
 
             p {
@@ -1488,10 +1574,14 @@ footer {
             grid-column: 2/3;
             justify-self: center;
             z-index: 1;
-            padding-top: 2.5em;
+            padding-top: 0;
             padding-bottom: 1.5em;
 
             h3 {
+<<<<<<< HEAD
+=======
+                font-size: 1.5em;
+>>>>>>> 54b03afaf227b60e6badc9fba787329157ea315a
                 text-align: center;
                 padding-bottom: 1.5em;
             }
@@ -1516,6 +1606,7 @@ footer {
         text-align: center;
         margin-top: 4em;
         margin-bottom: 4em;
+        font-size: 1.2em;
   }
 }
 
@@ -1539,17 +1630,29 @@ footer {
     h1 {
         text-align: center;
         margin-left: 0;
+<<<<<<< HEAD
+=======
+        font-size: 3em;
+>>>>>>> 54b03afaf227b60e6badc9fba787329157ea315a
     }
 
     h2 {
         margin-top: 50px;
         margin-bottom: 12px;
         margin-left: 0;
+<<<<<<< HEAD
+=======
+        font-size: 2em;
+>>>>>>> 54b03afaf227b60e6badc9fba787329157ea315a
     }
 
     h3 {
         margin-top: 18px;
         margin-left: 0;
+<<<<<<< HEAD
+=======
+        font-size: 1.5em;
+>>>>>>> 54b03afaf227b60e6badc9fba787329157ea315a
     }
 
     ul {
@@ -1567,24 +1670,39 @@ footer {
         grid-row: 2;
         grid-column: 1/2;
         z-index: 0;
+        background-color: $background;
+        border-top: 4px inset $gray;
+        border-right: 4px inset $gray;
+        border-bottom: 4px inset $gray;
     }
 
     #hvid-baggrund-1 {
         grid-row: 2;
         grid-column: 2/3;
         z-index: 0;
+        background-color: $white;
+        border-top: 4px inset $gray;
+        border-right: 4px inset $gray;
+        border-bottom: 4px inset $gray;
     }
 
     #graa-baggrund-2 {
         grid-row: 2;
         grid-column: 3/4;
         z-index: 0;
+        background-color: $background;
+        border-top: 4px inset $gray;
+        border-right: 4px inset $gray;
+        border-bottom: 4px inset $gray;
     }
 
     #hvid-baggrund-2 {
         grid-row: 2;
         grid-column: 4/5;
         z-index: 0;
+        background-color: $white;
+        border-top: 4px inset $gray;
+        border-bottom: 4px inset $gray;
     }
 
     #graa-baggrund-3 {
@@ -1613,6 +1731,18 @@ footer {
         grid-column: 2/3;
         justify-self: center;
         z-index: 1;
+
+        h2 {
+            color: black;
+        }
+
+        h3 {
+            color: black;
+        }
+
+        li {
+            color: black;
+        }
     }
 
     .kontaktpersoner {
@@ -1637,6 +1767,18 @@ footer {
         grid-column: 4/5;
         justify-self: center;
         z-index: 1;
+
+        h2 {
+            color: black;
+        }
+
+        h3 {
+            color: black;
+        }
+
+        li {
+            color: black;
+        }
     }
 }
 
@@ -1920,6 +2062,13 @@ footer {
             &:hover {
                 color: $hover;
                 transition-duration: 200ms;
+            }
+
+            a {
+                &:hover {
+                    color: $hover;
+                    transition-duration: 200ms;
+                }
             }
         }
     }
