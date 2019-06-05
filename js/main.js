@@ -1,6 +1,14 @@
 $( document ).ready(function() {
   console.log("Ready");
-    /*Swipe navigation*/
+    /*Modal*/
+    var modal = $('.modal-1');
+    $('.open-modal-1').click(function() {
+    modal.fadeIn();
+    });
+
+    $('.close-modal').click(function() {
+    modal.fadeOut();
+    });
 
     /*Count animation from number A to B*/
     let counter = $('.Count'),
