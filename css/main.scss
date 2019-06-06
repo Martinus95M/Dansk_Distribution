@@ -177,7 +177,7 @@ header {
             }
     }
 }
-.modal-1 {
+.modal-1, .modal-2 {
     background-color: $white;
     display: none;
     position: fixed;
@@ -186,7 +186,6 @@ header {
     transform: translate(-50%, -50%);
     width: 90%;
     height: 90%;
-    border-radius: 25px;
     z-index: 10;
     .exit {
         width: 100%;
