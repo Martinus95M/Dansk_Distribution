@@ -423,7 +423,7 @@ header .container {
   -ms-grid-column-span: 1;
   grid-column: 1/2;
   z-index: 0;
-  background-color: #F6F5F7;
+  background-color: #262626;
   border: 4px inset #707070;
 }
 
@@ -439,7 +439,7 @@ header .container {
   -ms-grid-column-span: 1;
   grid-column: 3/4;
   z-index: 0;
-  background-color: #F6F5F7;
+  background-color: #262626;
   border: 4px inset #707070;
 }
 
