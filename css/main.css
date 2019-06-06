@@ -411,8 +411,8 @@ header .container {
   -ms-grid-column-span: 1;
   grid-column: 2/3;
   z-index: 0;
-  background-color: #262626;
-  border: 4px inset #707070;
+  border-right: 4px solid #F6F5F7;
+  border-bottom: 4px solid #F6F5F7;
 }
 
 .transport .tl-lister-1 #hvid-baggrund-1 {
@@ -423,8 +423,8 @@ header .container {
   -ms-grid-column-span: 1;
   grid-column: 1/2;
   z-index: 0;
-  background-color: #262626;
-  border: 4px inset #707070;
+  border-right: 4px solid #F6F5F7;
+  border-bottom: 4px solid #F6F5F7;
 }
 
 .transport .tl-lister-1 #graa-baggrund-2 {
@@ -439,8 +439,7 @@ header .container {
   -ms-grid-column-span: 1;
   grid-column: 3/4;
   z-index: 0;
-  background-color: #262626;
-  border: 4px inset #707070;
+  border-bottom: 4px solid #F6F5F7;
 }
 
 .transport .tl-lister-1 .tl_liste_1 {
@@ -459,7 +458,7 @@ header .container {
 
 .transport .tl-lister-1 .tl_liste_1 h3 {
   text-align: center;
-  color: black;
+  color: #F6F5F7;
   font-size: 0.8em;
   padding-top: 2em;
   padding-bottom: 1em;
@@ -517,7 +516,7 @@ header .container {
 
 .transport .tl-lister-1 .tl_liste_3 h3 {
   text-align: center;
-  color: black;
+  color: #F6F5F7;
   font-size: 0.8em;
   padding-top: 2em;
   padding-bottom: 2.3em;
@@ -593,8 +592,8 @@ header .container {
   -ms-grid-column-span: 1;
   grid-column: 2/3;
   z-index: 0;
-  background-color: #262626;
-  border: 4px inset #707070;
+  border-left: 4px solid #F6F5F7;
+  border-bottom: 4px solid #F6F5F7;
 }
 
 .lagerhotel .tl-lister-2 #hvid-baggrund-3 {
@@ -604,8 +603,7 @@ header .container {
   -ms-grid-column-span: 1;
   grid-column: 1/2;
   z-index: 0;
-  background-color: #F6F5F7;
-  border: 4px inset #707070;
+  border-bottom: 4px solid #F6F5F7;
 }
 
 .lagerhotel .tl-lister-2 .tl_liste_4 {
@@ -1551,8 +1549,6 @@ footer #klovnesponsor img {
     -ms-grid-column-span: 1;
     grid-column: 2/3;
     z-index: 0;
-    background-color: #262626;
-    border: 4px inset #707070;
   }
   .transport .tl-lister-1 #hvid-baggrund-1 {
     -ms-grid-row: 1;
@@ -1562,8 +1558,6 @@ footer #klovnesponsor img {
     -ms-grid-column-span: 1;
     grid-column: 1/2;
     z-index: 0;
-    background-color: #F6F5F7;
-    border: 4px inset #707070;
   }
   .transport .tl-lister-1 #graa-baggrund-2 {
     display: none;
@@ -1576,8 +1570,6 @@ footer #klovnesponsor img {
     -ms-grid-column-span: 1;
     grid-column: 3/4;
     z-index: 0;
-    background-color: #F6F5F7;
-    border: 4px inset #707070;
   }
   .transport .tl-lister-1 .tl_liste_1 {
     -ms-grid-row: 1;
@@ -1594,7 +1586,6 @@ footer #klovnesponsor img {
   }
   .transport .tl-lister-1 .tl_liste_1 h3 {
     text-align: center;
-    color: black;
     padding-top: 2em;
     padding-bottom: 1em;
     font-size: 1.5em;
@@ -1602,7 +1593,6 @@ footer #klovnesponsor img {
   .transport .tl-lister-1 .tl_liste_1 p {
     text-align: start;
     margin-top: 3px;
-    color: #F6F5F7;
   }
   .transport .tl-lister-1 .tl_liste_2 {
     -ms-grid-row: 1;
@@ -1618,7 +1608,6 @@ footer #klovnesponsor img {
     padding-bottom: 1em;
   }
   .transport .tl-lister-1 .tl_liste_2 h3 {
-    color: #F6F5F7;
     text-align: center;
     padding-top: 2em;
     padding-bottom: 1em;
@@ -1627,7 +1616,6 @@ footer #klovnesponsor img {
   .transport .tl-lister-1 .tl_liste_2 p {
     text-align: start;
     margin-top: 7px;
-    color: #F6F5F7;
     margin-bottom: 1.4em;
   }
   .transport .tl-lister-1 .tl_liste_3 {
@@ -1644,7 +1632,6 @@ footer #klovnesponsor img {
     padding-bottom: 1em;
   }
   .transport .tl-lister-1 .tl_liste_3 h3 {
-    color: black;
     text-align: center;
     padding-top: 2em;
     padding-bottom: 1em;
@@ -1654,7 +1641,6 @@ footer #klovnesponsor img {
     text-align: start;
     margin-top: 3px;
     margin-bottom: 1.4em;
-    color: #F6F5F7;
   }
   .lagerhotel {
     width: 100%;
@@ -1850,9 +1836,6 @@ footer #klovnesponsor img {
     grid-column: 1/2;
     z-index: 0;
     background-color: #262626;
-    border-top: 4px inset #707070;
-    border-right: 4px inset #707070;
-    border-bottom: 4px inset #707070;
   }
   .kontakt #hvid-baggrund-1 {
     -ms-grid-row: 2;
@@ -1861,10 +1844,6 @@ footer #klovnesponsor img {
     -ms-grid-column-span: 1;
     grid-column: 2/3;
     z-index: 0;
-    background-color: #F6F5F7;
-    border-top: 4px inset #707070;
-    border-right: 4px inset #707070;
-    border-bottom: 4px inset #707070;
   }
   .kontakt #graa-baggrund-2 {
     -ms-grid-row: 2;
@@ -1874,9 +1853,6 @@ footer #klovnesponsor img {
     grid-column: 3/4;
     z-index: 0;
     background-color: #262626;
-    border-top: 4px inset #707070;
-    border-right: 4px inset #707070;
-    border-bottom: 4px inset #707070;
   }
   .kontakt #hvid-baggrund-2 {
     -ms-grid-row: 2;
@@ -1885,9 +1861,6 @@ footer #klovnesponsor img {
     -ms-grid-column-span: 1;
     grid-column: 4/5;
     z-index: 0;
-    background-color: #F6F5F7;
-    border-top: 4px inset #707070;
-    border-bottom: 4px inset #707070;
   }
   .kontakt #graa-baggrund-3 {
     display: none;
@@ -1899,8 +1872,8 @@ footer #klovnesponsor img {
     -ms-grid-column: 1;
     -ms-grid-column-span: 1;
     grid-column: 1/2;
-    -ms-grid-column-align: center;
-        justify-self: center;
+    -ms-grid-column-align: end;
+        justify-self: end;
     z-index: 1;
   }
   .kontakt .hovedkontor h2 {
@@ -1921,13 +1894,13 @@ footer #klovnesponsor img {
     z-index: 1;
   }
   .kontakt .kundeservice h2 {
-    color: black;
+    color: #F6F5F7;
   }
   .kontakt .kundeservice h3 {
-    color: black;
+    color: #F6F5F7;
   }
   .kontakt .kundeservice li {
-    color: black;
+    color: #F6F5F7;
   }
   .kontakt .kontaktpersoner {
     width: 85%;
@@ -1953,18 +1926,18 @@ footer #klovnesponsor img {
     -ms-grid-column: 4;
     -ms-grid-column-span: 1;
     grid-column: 4/5;
-    -ms-grid-column-align: center;
-        justify-self: center;
+    -ms-grid-column-align: end;
+        justify-self: end;
     z-index: 1;
   }
   .kontakt .salg h2 {
-    color: black;
+    color: #F6F5F7;
   }
   .kontakt .salg h3 {
-    color: black;
+    color: #F6F5F7;
   }
   .kontakt .salg li {
-    color: black;
+    color: #F6F5F7;
   }
   /*Kontakt - End*/
   /*Booking*/
