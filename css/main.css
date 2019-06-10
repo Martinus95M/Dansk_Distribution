@@ -414,8 +414,8 @@ header .container {
   -ms-grid-column-span: 1;
   grid-column: 2/3;
   z-index: 0;
-  border-right: 4px solid #F6F5F7;
-  border-bottom: 4px solid #F6F5F7;
+  border-right: 1px solid #F6F5F7;
+  border-left: 1px solid #F6F5F7;
 }
 
 .transport .tl-lister-1 #hvid-baggrund-1 {
@@ -426,8 +426,6 @@ header .container {
   -ms-grid-column-span: 1;
   grid-column: 1/2;
   z-index: 0;
-  border-right: 4px solid #F6F5F7;
-  border-bottom: 4px solid #F6F5F7;
 }
 
 .transport .tl-lister-1 #graa-baggrund-2 {
@@ -442,7 +440,6 @@ header .container {
   -ms-grid-column-span: 1;
   grid-column: 3/4;
   z-index: 0;
-  border-bottom: 4px solid #F6F5F7;
 }
 
 .transport .tl-lister-1 .tl_liste_1 {
@@ -595,8 +592,8 @@ header .container {
   -ms-grid-column-span: 1;
   grid-column: 2/3;
   z-index: 0;
-  border-left: 4px solid #F6F5F7;
-  border-bottom: 4px solid #F6F5F7;
+  border-left: 1px solid #F6F5F7;
+  border-bottom: 1px solid #F6F5F7;
 }
 
 .lagerhotel .tl-lister-2 #hvid-baggrund-3 {
@@ -606,7 +603,7 @@ header .container {
   -ms-grid-column-span: 1;
   grid-column: 1/2;
   z-index: 0;
-  border-bottom: 4px solid #F6F5F7;
+  border-bottom: 1px solid #F6F5F7;
 }
 
 .lagerhotel .tl-lister-2 .tl_liste_4 {
