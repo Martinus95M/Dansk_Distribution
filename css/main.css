@@ -4,12 +4,12 @@
 /*Fonts*/
 @font-face {
   font-family: "Nexa Light";
-  src: url("fonts/Nexa_Light.otf") format("opentype");
+  src: url("fonts/Nexa_Light.woff") format("woff"), url("fonts/Nexa_Light.otf") format("opentype");
 }
 
 @font-face {
   font-family: "Noah Regular";
-  src: url("fonts/Noah-Regular.oft") format("opentype");
+  src: url("fonts/Noah-Regular.woff") format("woff"), url("fonts/Noah-Regular.oft") format("opentype");
 }
 
 /*Fonts - End*/
@@ -87,7 +87,7 @@ header .nav-mobile {
   height: auto;
   bottom: 0;
   border-top: 2px solid #d71920;
-  z-index: 5;
+  z-index: 1000;
 }
 
 header .nav-mobile ul {
@@ -195,12 +195,16 @@ header .container {
   font-size: .9em;
 }
 
+#sec-A .infoboks .open-modal-1 {
+  cursor: pointer;
+}
+
 #sec-A .infoboks .border {
   border-left: 1px solid #F6F5F7;
   border-right: 1px solid #F6F5F7;
 }
 
-.modal-1, .modal-2 {
+.modal-1 {
   background-color: #F6F5F7;
   display: none;
   position: fixed;
@@ -213,17 +217,17 @@ header .container {
   z-index: 10;
 }
 
-.modal-1 .exit, .modal-2 .exit {
+.modal-1 .exit {
   width: 100%;
   height: 5%;
   background-color: #d71920;
 }
 
-.modal-1 .exit a, .modal-2 .exit a {
+.modal-1 .exit a {
   float: right;
 }
 
-.modal-1 p, .modal-2 p {
+.modal-1 p {
   color: #262626;
   padding: 1em;
 }
@@ -749,7 +753,7 @@ header .container {
 /*Kontakt - End*/
 /*Booking*/
 .booking-container {
-  margin: 7em auto;
+  margin: 4.5em auto;
   background-color: #F6F5F7;
   border-radius: 10px;
   -webkit-box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
@@ -758,7 +762,7 @@ header .container {
   overflow: hidden;
   width: 768px;
   max-width: 100%;
-  min-height: 480px;
+  min-height: 400px;
 }
 
 .booking-container h1 {
@@ -782,6 +786,7 @@ header .container {
   font-size: 14px;
   text-decoration: none;
   margin: 15px 0;
+  font-family: "Noah Regular";
 }
 
 .booking-container button {
@@ -829,7 +834,7 @@ header .container {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  padding: 0 50px;
+  padding: 0 20px;
   height: 100%;
   text-align: center;
 }
@@ -966,7 +971,7 @@ header .container {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  padding: 0 40px;
+  padding: 0 20px;
   text-align: center;
   top: 0;
   height: 100%;
@@ -1786,6 +1791,233 @@ footer #klovnesponsor img {
     font-size: 1.2em;
   }
   /*Transport & Lagerhotel - End*/
+  /*Booking*/
+  .booking-container {
+    margin: 6em auto;
+    background-color: #F6F5F7;
+    border-radius: 10px;
+    -webkit-box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+            box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    position: relative;
+    overflow: hidden;
+    width: 768px;
+    max-width: 100%;
+    min-height: 480px;
+  }
+  .booking-container h1 {
+    margin: 0;
+  }
+  .booking-container p {
+    font-size: 14px;
+    font-weight: 100;
+    line-height: 20px;
+    letter-spacing: 0.5px;
+    margin: 20px 0 30px;
+  }
+  .booking-container span {
+    font-size: 12px;
+  }
+  .booking-container a {
+    color: #262626;
+    font-size: 14px;
+    text-decoration: none;
+    margin: 15px 0;
+    font-family: "Noah Regular";
+  }
+  .booking-container button {
+    border-radius: 20px;
+    border: 1px solid #d71920;
+    background-color: #d71920;
+    color: #F6F5F7;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 12px 45px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    -webkit-transition: -webkit-transform 80ms ease-in;
+    transition: -webkit-transform 80ms ease-in;
+    transition: transform 80ms ease-in;
+    transition: transform 80ms ease-in, -webkit-transform 80ms ease-in;
+  }
+  .booking-container button:active {
+    -webkit-transform: scale(0.95);
+            transform: scale(0.95);
+  }
+  .booking-container button:focus {
+    outline: none;
+  }
+  .booking-container button.ghost {
+    background-color: transparent;
+    border-color: #ffffff;
+  }
+  .booking-container form {
+    background-color: #F6F5F7;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 0 50px;
+    height: 100%;
+    text-align: center;
+  }
+  .booking-container form h1 {
+    color: #262626;
+  }
+  .booking-container input {
+    background-color: #eee;
+    border: none;
+    padding: 12px 15px;
+    margin: 8px 0;
+    width: 100%;
+  }
+  .form-container {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    -webkit-transition: all 0.6s ease-in-out;
+    transition: all 0.6s ease-in-out;
+  }
+  .sign-in-container {
+    left: 0;
+    width: 50%;
+    z-index: 2;
+  }
+  .sign-up-container {
+    left: 0;
+    width: 50%;
+    opacity: 0;
+    z-index: 1;
+  }
+  .booking-container.right-panel-active .sign-in-container {
+    -webkit-transform: translateX(100%);
+            transform: translateX(100%);
+  }
+  .booking-container.right-panel-active .sign-up-container {
+    -webkit-transform: translateX(100%);
+            transform: translateX(100%);
+    opacity: 1;
+    z-index: 5;
+    -webkit-animation: show 0.6s;
+            animation: show 0.6s;
+  }
+  @-webkit-keyframes show {
+    0%,
+    49.99% {
+      opacity: 0;
+      z-index: 1;
+    }
+    50%,
+    100% {
+      opacity: 1;
+      z-index: 5;
+    }
+  }
+  @keyframes show {
+    0%,
+    49.99% {
+      opacity: 0;
+      z-index: 1;
+    }
+    50%,
+    100% {
+      opacity: 1;
+      z-index: 5;
+    }
+  }
+  .overlay-container {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+    -webkit-transition: -webkit-transform 0.6s ease-in-out;
+    transition: -webkit-transform 0.6s ease-in-out;
+    transition: transform 0.6s ease-in-out;
+    transition: transform 0.6s ease-in-out, -webkit-transform 0.6s ease-in-out;
+    z-index: 100;
+  }
+  .booking-container.right-panel-active .overlay-container {
+    -webkit-transform: translateX(-100%);
+            transform: translateX(-100%);
+  }
+  .overlay {
+    background: #d71920;
+    background: -webkit-gradient(linear, left top, left bottom, from(#D71920), color-stop(#A81419), to(#FC4F54));
+    background: linear-gradient(to bottom, #D71920, #A81419, #FC4F54);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 0;
+    color: #ffffff;
+    position: relative;
+    left: -100%;
+    height: 100%;
+    width: 200%;
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+    -webkit-transition: -webkit-transform 0.6s ease-in-out;
+    transition: -webkit-transform 0.6s ease-in-out;
+    transition: transform 0.6s ease-in-out;
+    transition: transform 0.6s ease-in-out, -webkit-transform 0.6s ease-in-out;
+  }
+  .booking-container.right-panel-active .overlay {
+    -webkit-transform: translateX(50%);
+            transform: translateX(50%);
+  }
+  .overlay-panel {
+    position: absolute;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 0 40px;
+    text-align: center;
+    top: 0;
+    height: 100%;
+    width: 50%;
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+    -webkit-transition: -webkit-transform 0.6s ease-in-out;
+    transition: -webkit-transform 0.6s ease-in-out;
+    transition: transform 0.6s ease-in-out;
+    transition: transform 0.6s ease-in-out, -webkit-transform 0.6s ease-in-out;
+  }
+  .overlay-left {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+  .container.right-panel-active .overlay-left {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+  .overlay-right {
+    right: 0;
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+  .booking-container.right-panel-active .overlay-right {
+    -webkit-transform: translateX(20%);
+            transform: translateX(20%);
+  }
+  /*Booking*/
   /*Kontakt*/
   .kontakt {
     display: -ms-grid;

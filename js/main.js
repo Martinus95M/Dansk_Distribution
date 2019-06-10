@@ -1,5 +1,6 @@
 $( document ).ready(function() {
   console.log("Ready");
+  
     /*Modal*/
     var modal = $('.modal-1');
     $('.open-modal-1').click(function() {
@@ -8,15 +9,6 @@ $( document ).ready(function() {
 
     $('.close-modal').click(function() {
     modal.fadeOut();
-    });
-
-    var modal2 = $('.modal-2');
-    $('.open-modal-2').click(function() {
-    modal2.fadeIn();
-    });
-
-    $('.close-modal').click(function() {
-    modal2.fadeOut();
     });
 
     /*Count animation from number A to B*/
