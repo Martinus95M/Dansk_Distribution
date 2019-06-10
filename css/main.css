@@ -378,13 +378,11 @@ header .container {
 /*Transport & Lagerhotel (T&L)*/
 .tl-titel {
   width: 100%;
-  margin-top: 2em;
   display: none;
 }
 
 .tl-titel h1 {
   text-align: center;
-  margin-bottom: 1.5em;
 }
 
 .transport {
@@ -1422,7 +1420,7 @@ footer #klovnesponsor img {
     -ms-grid-column: 2;
     -ms-grid-column-span: 1;
     grid-column: 2/3;
-    margin: auto 20px;
+    margin: auto 50px;
     margin-right: 80px;
   }
   #sec-B .txtimg, #sec-D .txtimg {
@@ -1456,8 +1454,8 @@ footer #klovnesponsor img {
     -ms-grid-row: 1;
     -ms-grid-column: 2;
     grid-area: txt;
-    margin: auto 80px;
-    margin-right: 20px;
+    margin: auto 50px;
+    margin-left: 80px;
   }
   .grid-1 {
     display: -ms-grid;
@@ -1507,11 +1505,11 @@ footer #klovnesponsor img {
   .tl-titel {
     display: block;
     width: 100%;
-    margin-top: 3em;
+    margin-top: 100px;
+    margin-bottom: 50px;
   }
   .tl-titel h1 {
     text-align: center;
-    margin-bottom: 0.5em;
   }
   .transport {
     width: 100%;

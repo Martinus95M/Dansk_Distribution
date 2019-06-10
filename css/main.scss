@@ -319,12 +319,9 @@ header {
 
 .tl-titel {
       width: 100%;
-      margin-top: 2em;
       display: none;
-
       h1 {
           text-align: center;
-          margin-bottom: 1.5em;
       }
   }
 
@@ -1216,7 +1213,7 @@ footer {
         padding: 0;
         .txtboks {
             grid-column: 2/3;
-            margin: auto 20px;
+            margin: auto 50px;
             margin-right: 80px;
         }
         .txtimg {
@@ -1244,8 +1241,8 @@ footer {
         }
         .txtboks {
             grid-area: txt;
-            margin: auto 80px;
-            margin-right: 20px;
+            margin: auto 50px;
+            margin-left: 80px;
         }
     }
     .grid-1 {
@@ -1290,11 +1287,10 @@ footer {
   .tl-titel {
       display: block;
       width: 100%;
-      margin-top: 3em;
-
+      margin-top: 100px;
+      margin-bottom: 50px;
       h1 {
           text-align: center;
-          margin-bottom: 0.5em;
       }
   }
 
