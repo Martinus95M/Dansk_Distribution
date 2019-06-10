@@ -229,6 +229,7 @@ header .container {
   margin-right: 40px;
   height: 50%;
   float: right;
+  cursor: pointer;
 }
 
 .modal-1 .exit .close-modal .one, .modal-1 .exit .close-modal .two {
@@ -1402,6 +1403,13 @@ footer #klovnesponsor img {
   #sec-A .infoboks .boks .wrap p {
     font-size: 1.5em;
     opacity: 1;
+  }
+  .modal-1 {
+    width: 90%;
+    height: 90%;
+  }
+  .modal-1 .exit {
+    height: 40px;
   }
   .title {
     margin-top: 100px;
